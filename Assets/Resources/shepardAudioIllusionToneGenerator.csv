@@ -1,0 +1,15 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+ascending,0.4,0,0,0,0,0,0,0,0,0
+descending,0,0.4,0,0,0,0,0,0,0,0
+odd numbered sliders,0.3,0,0.3,0,0.3,0,0.3,0,0.3,0
+even numbered sliders,0,0.3,0,0.3,0,0.3,0,0.3,0,0.3
+mixing the two together,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3
+Dazed ,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3
+Shepard Up,0.35,0,0,0,0,0,0,0,0,0
+Shepard Down,0,0.35,0,0,0,0,0,0,0,0
+Getting Insane,0.35,0,0.35,0,0,0,0,0,0,0
+Binaural Torture,0,0.35,0,0.35,0,0,0,0,0,0
+No Way Up,0.3,0,0.3,0,0.3,0,0.3,0,0.3,0
+Feeling Down,0,0.3,0,0.3,0,0.3,0,0.3,0,0.3
+Noisea,0.25,0.25,0.25,0.25,0.35,0.35,0.25,0.25,0.25,0.25
+X-scape,0,0,0,0,0,0,0,0,0.35,0.35

@@ -1,0 +1,9 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+Underwater,0,0.4,0.4,0.4,0,0,0,0,0,0
+Scuba Diver,0.5,0,0,0,0.44,0.34,0,0,0,0.38
+Close Encounter,0.3,0.3,0.3,0.3,0.3,0.3,0.5,0.5,0.3,0.3
+Coral Reef,0.5,0,0,0,0,0,0,0,0.3,0.4
+Flipper,0.4,0.3,0,0,0,0,0.5,0.8,0,0
+Ocean Waves,0.5,0,0,0,0,0,0,0,0.3,0.1
+Distant Shore,0.5,0,0,0,0,0,0,0,0,0
+Nitrox,0,0,0,0,0,0.4,0,0,0,0

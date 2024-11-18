@@ -1,0 +1,11 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+Chatter,0,0,0,0.25,0.35,0,0.25,0.35,0,0
+Babble,0,0,0,0.35,0,0,0.3,0,0,0
+Cafeteria,0,0.35,0.35,0.35,0,0,0,0,0,0
+Cocktail Party,0,0.3,0.3,0,0,0.4,0,0,0,0
+Soundproofed,0.4,0.3,0.2,0,0,0,0,0,0,0
+The Table In Front,0,0.25,0,0,0,0,0.35,0.2,0,0
+Table for One,0.3,0,0,0,0,0,0,0,0.45,0.3
+Patrons Only,0.3,0,0,0,0.2,0.2,0,0,0.3,0.5
+Downstairs,0.4,0.25,0,0,0,0,0,0,0,0
+Waiting,0,0,0,0,0.35,0.35,0,0,0,0

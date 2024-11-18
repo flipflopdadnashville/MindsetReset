@@ -1,0 +1,9 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+Steel Shop,0.15,0.15,0,0,0,0,0.5,0.4,0,0
+Hot Stripping,0.55,0.55,0,0,0,0,0,0,0,0
+Cold Rolling,0,0,0,0,0.4,0.5,0,0.3,0,0.3
+Galvanising Hall,0,0,0,0,0,0,0,0.5,0,0.5
+Hot Off The Press,0,0.45,0.55,0,0,0,0,0,0,0
+Men At Work,0,0,0,0.55,0.55,0,0,0,0,0
+Hall Tone,0,0,0,0,0,0,0,0.5,0,0.35
+Transformer,0,0,0,0,0,0,0,0.3,0.5,0

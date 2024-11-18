@@ -1,0 +1,9 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+The Drone,0,0,0.35,0.35,0.35,0.35,0,0,0,0
+Breathing Pipe,0.35,0,0.35,0,0,0,0,0.4,0,0
+Throat Pipes,0.25,0,0,0,0.4,0.4,0,0,0,0
+Haunting Flutes,0,0.35,0,0,0,0,0,0,0.4,0.25
+Circular Breath,0.4,0,0,0,0,0,0,0,0,0.45
+Calm Blow,0.3,0.5,0,0,0,0,0,0,0,0
+Harmony,0.27,0.45,0.35,0.27,0.27,0.27,0.27,0,0.35,0.27
+Highlander,0,0,0.4,0,0,0,0.4,0.4,0,0

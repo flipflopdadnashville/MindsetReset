@@ -1,0 +1,7 @@
+SETUP GUIDE
+1. From this asset’s profile page, click on the buy button right underneath the title.
+2. You’ll be forced to open the Unity engine. Once you’re in Unity and you see my asset’s profile page, click on the download button from the Asset Store tab.
+3. A window named ‘Importing package’ will show up that lets you choose which asset folders you want to add to your game. Select all the folders, then click 'Import.'
+4. After it’s done importing, you should see a folder on your Project tab called ‘Celeron.’ Open that, then open the ‘Prefabs’ folder.
+5. Drag and drop the 'Celeron' prefab from the Project tab to the Heiarchy tab. Make sure that no objects are parented underneath or on top of the prefab object.
+6. Once you see the Celeron tool on your selected prefab object’s properties, you’re all set! This package also has a Unity driving scene that you can utilize for other potential applications in case you need it.

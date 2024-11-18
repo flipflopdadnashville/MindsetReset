@@ -1,0 +1,9 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+Glacier Collapse,0.6,0.5,0,0,0,0,0,0,0,0
+Frozen River,0,0,0,0.3,0.4,0,0,0,0,0
+Fresh Water,0,0,0.35,0.4,0.2,0,0,0,0,0
+Polar Trek,0,0.3,0,0,0.3,0,0.4,0.4,0,0.2
+Husky on Thin Ice,0.2,0,0,0,0,0.4,0,0,0.4,0
+Snow Walk,0,0,0,0,0,0,0.35,0.35,0.35,0
+Frozen Lake Snow,0.2,0,0,0,0.2,0.3,0,0,0,0.35
+Expedition,0.4,0.4,0,0,0,0.2,0.4,0.4,0,0.3

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PolycarbonPetalHandle
+  - PolycarbonPivot
+  - PolycarbonRowParent
+  - PolycarbonPetal
+  - sGeometry
+  - FishMesh
+  - Fish
+  - Coin
+  - eqWall
+  - Floor
+  - enemyBall
+  - Ball
+  - bombTarget
+  - Maze
+  - rotatingMaze
+  - Orbiter
+  - samplerVoice
+  - terrainChunk
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - TopLayer
+  - Water
+  - UI
+  - Post Processing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,8 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+Take It Easy,0.4,0.6,0.4,0,0,0,0,0,0,0
+Make It Easy,0.4,0.6,0,0.4,0,0,0,0,0,0
+Make it Fast,0.4,0,0.6,0,0.4,0,0,0,0,0
+Floating,0.4,0.6,0.4,0,0.4,0,0,0,0.5,0
+Free Runner,0,0,0,0,0.4,0.4,0,0,0.4,0.2
+Bad Trip,0,0,0,0,0,0,0.3,0.4,0,0
+Shrooms,0,0,0,0,0,0.4,0.3,0.2,0.4,0.3

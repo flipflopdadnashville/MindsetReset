@@ -1,0 +1,8 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+At Dawn,0.45,0.45,0.4,0,0.4,0,0,0,0,0
+At Dusk,0.5,0,0,0.4,0,0,0,0,0,0
+Warm Afternoon,0,0,0,0,0,0,0,0.45,0.4,0.4
+Lonely Bird,0,0,0.2,0.2,0,0.45,0,0,0.2,0
+Rainforest,0.5,0.5,0,0,0,0,0,0,0.2,0.2
+Parrot Talk,0,0.2,0.5,0,0,0,0,0,0,0
+Alarmed,0,0,0,0,0.5,0,0,0.4,0.4,0

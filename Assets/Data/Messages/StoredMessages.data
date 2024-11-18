@@ -1,0 +1,49 @@
+MSG_DATA
+
+LayoutIndex:1
+{
+[Type]standard
+[Author]self
+[Message]Here's a fact. This app is awesome!
+[Time]15:54 PM
+}
+
+LayoutIndex:0
+{
+[Type]standard
+[Author]self
+[Message]Something goes here...
+[Time]12:00 PM
+}
+
+LayoutIndex:0
+{
+[Type]standard
+[Author]self
+[Message]This is amazing!
+[Time]13:20 PM
+}
+
+LayoutIndex:0
+{
+[Type]standard
+[Author]self
+[Message]Well, thank you...
+[Time]13:20 PM
+}
+
+LayoutIndex:0
+{
+[Type]standard
+[Author]self
+[Message]How do I really make this work for me?
+[Time]4:18 PM
+}
+
+LayoutIndex:0
+{
+[Type]standard
+[Author]self
+[Message]By doing it like this?
+[Time]4:18 PM
+}

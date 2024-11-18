@@ -1,0 +1,10 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+Boat for Two,0.4,0.4,0.2,0,0,0,0,0,0,0
+Jump in the Water,0,0.4,0.4,0,0,0,0,0,0,0
+Serenade,0,0,0,0.4,0.4,0,0,0,0,0
+Kiss Me,0,0,0,0,0,0.4,0.4,0,0,0
+Froggy Evening,0,0,0,0,0,0,0,0.4,0.3,0.2
+Garden Pond,0,0.4,0.2,0,0,0,0.3,0,0,0
+Eastern Chorus,0,0,0,0.35,0.35,0,0,0,0,0.35
+Western Chorus,0,0,0,0,0,0.35,0.35,0.3,0.3,0
+Shoreline,0.4,0.25,0.35,0,0,0.25,0.25,0.15,0.15,0.15

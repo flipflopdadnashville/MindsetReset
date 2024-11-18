@@ -1,0 +1,10 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+Artillery,0.99,0.8,0,0,0,0.3,0.2,0,0,0
+On Fire,0.3,0.4,0.4,0.4,0.3,0,0,0,0,0
+Cavalry,0,0,0,0.25,0.5,0.25,0,0,0,0
+Troops,0,0,0,0.5,0.25,0,0,0,0,0
+Duel,0,0,0.3,0,0,0.15,0.15,0.6,0,0
+Distant Fight,0,0,0,0,0,0.35,0.25,0,0,0.25
+War Pipes,0,0,0,0,0,0,0,0,0,0.4
+The Band,0,0,0,0,0,0,0,0,0.35,0.35
+Back Home,0.3,0.3,0.3,0.3,0.3,0,0,0,0.5,0.3

@@ -1,0 +1,8 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+Background Wind,0.3,0.4,0,0,0,0,0,0,0,0
+Distant Creek,0,0,0.4,0.3,0.2,0,0,0,0,0
+Forest Stream,0,0,0,0,0.4,0.5,0,0,0,0
+The Source,0,0,0,0,0,0.6,0,0,0.3,0.3
+Morning Howls,0,0,0,0,0,0,0.45,0.45,0,0
+Quietude,0,0,0,0.3,0,0.3,0,0,0.5,0
+Speech Blocker,0.2,0.24,0.28,0.32,0.36,0.4,0.4,0.4,0.4,0.4

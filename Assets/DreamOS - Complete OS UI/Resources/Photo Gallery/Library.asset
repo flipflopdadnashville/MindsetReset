@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26572bca692eb514096f2641591c0024, type: 3}
+  m_Name: Library
+  m_EditorClassIdentifier: 
+  pictures:
+  - pictureTitle: Botanical Leaves
+    pictureDescription: 26/01/2021
+    pictureSprite: {fileID: 21300000, guid: 8a31d9c1547a4b346b65c0831d317daf, type: 3}
+  - pictureTitle: Cozy Hill
+    pictureDescription: 21/01/2021
+    pictureSprite: {fileID: 21300000, guid: 13f9eda6a85417444a14da3b5e22cf0b, type: 3}
+  - pictureTitle: Cute Doggo
+    pictureDescription: 22/01/2021
+    pictureSprite: {fileID: 21300000, guid: 21a2cfd9c8458af489b615009e5a0156, type: 3}
+  - pictureTitle: Dolphins
+    pictureDescription: 23/01/2021
+    pictureSprite: {fileID: 21300000, guid: 0a168e406ba0c14499d3d722c3038f1b, type: 3}
+  - pictureTitle: Ev
+    pictureDescription: Three Years Old
+    pictureSprite: {fileID: 21300000, guid: be6cd2a1543fb6048852e53bff8de4f1, type: 3}
+  - pictureTitle: Foggy River
+    pictureDescription: 26/01/2021
+    pictureSprite: {fileID: 21300000, guid: 0395f2e6cd4b3744d90f065d791767e1, type: 3}
+  - pictureTitle: Lake Sunlight
+    pictureDescription: 26/01/2021
+    pictureSprite: {fileID: 21300000, guid: 1ee9792f391884e4481a881bf4c1ff72, type: 3}
+  - pictureTitle: Lone Tree
+    pictureDescription: 26/01/2021
+    pictureSprite: {fileID: 21300000, guid: a9a0c543383adfd4ab5fabc8b1bb2a43, type: 3}
+  - pictureTitle: Purple Sunset
+    pictureDescription: 24/01/2021
+    pictureSprite: {fileID: 21300000, guid: c1649dcf07899c8498fb9ddddeba8398, type: 3}
+  - pictureTitle: Rain Drops
+    pictureDescription: 25/01/2021
+    pictureSprite: {fileID: 21300000, guid: 65ac230fccbb41942b562f78c76cdb96, type: 3}
+  - pictureTitle: Rainy Leaves
+    pictureDescription: 26/01/2021
+    pictureSprite: {fileID: 21300000, guid: 77619b0b3afb0e749bbb447f9e0f37cc, type: 3}
+  - pictureTitle: Snowy Forest
+    pictureDescription: 26/01/2021
+    pictureSprite: {fileID: 21300000, guid: 003fb9362c08461488a2897b320d97fd, type: 3}
+  - pictureTitle: Sunset River
+    pictureDescription: 26/01/2021
+    pictureSprite: {fileID: 21300000, guid: 63a1f9e4baae3de43a5ecf35d48b71a4, type: 3}
+  - pictureTitle: Zugspite Lake
+    pictureDescription: 26/01/2021
+    pictureSprite: {fileID: 21300000, guid: 168cc0e7b17e19742a6701d9a6df9990, type: 3}

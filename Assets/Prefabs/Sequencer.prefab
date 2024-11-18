@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2735014178522857733
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2735014178522857735}
+  - component: {fileID: 2735014178522857734}
+  m_Layer: 0
+  m_Name: Sampler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2735014178522857735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2735014178522857733}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -348.75992, y: -577.57855, z: 0}
+  m_LocalScale: {x: 0.41666663, y: 1.1904762, z: 0.41666663}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2735014179865316931}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2735014178522857734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2735014178522857733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2594e4ed66756b4f86728142c83798a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sequencer: {fileID: 2735014179907043307}
+  _audioClip: {fileID: 8300000, guid: dd19b290ea825f6448d7b34b4cb4ec3c, type: 3}
+  _attackTime: 0.10999999940395355
+  _releaseTime: 0.10999999940395355
+  _numVoices: 6
+  _samplerVoicePrefab: {fileID: 114000010929293846, guid: 5ad770142398a8f439b9f706e1f2ab14, type: 3}
+  _samplerVoices: []
+--- !u!1 &2735014179716795475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2735014179716795477}
+  - component: {fileID: 2735014179716795476}
+  m_Layer: 0
+  m_Name: Metronome
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2735014179716795477
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2735014179716795475}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -348.75992, y: -577.57855, z: 0}
+  m_LocalScale: {x: 0.41666663, y: 1.1904762, z: 0.41666663}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2735014179865316931}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2735014179716795476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2735014179716795475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80e3a24eae1439642becde66ea9ff135, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tempo: 60
+  _subdivisions: 4
+--- !u!1 &2735014179865316930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2735014179865316931}
+  m_Layer: 5
+  m_Name: Sequencer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2735014179865316931
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2735014179865316930}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2735014179716795477}
+  - {fileID: 2735014179907043308}
+  - {fileID: 2735014178522857735}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2735014179907043306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2735014179907043308}
+  - component: {fileID: 2735014179907043307}
+  m_Layer: 0
+  m_Name: StepSequencer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2735014179907043308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2735014179907043306}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -348.75992, y: -577.57855, z: 0}
+  m_LocalScale: {x: 0.41666663, y: 1.1904762, z: 0.41666663}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2735014179865316931}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2735014179907043307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2735014179907043306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b21073302f44ff40aaf0343b3c843df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _metronome: {fileID: 2735014179716795476}
+  _steps:
+  - Active: 1
+    MidiNoteNumber: 32
+    Duration: 1
+  - Active: 1
+    MidiNoteNumber: 44
+    Duration: 1
+  - Active: 1
+    MidiNoteNumber: 46
+    Duration: 1
+  - Active: 1
+    MidiNoteNumber: 54
+    Duration: 1
+  - Active: 1
+    MidiNoteNumber: 32
+    Duration: 1
+  - Active: 1
+    MidiNoteNumber: 32
+    Duration: 1
+  - Active: 1
+    MidiNoteNumber: 32
+    Duration: 1
+  - Active: 1
+    MidiNoteNumber: 32
+    Duration: 1.5
+  - Active: 1
+    MidiNoteNumber: 32
+    Duration: 0.5
+  - Active: 1
+    MidiNoteNumber: 32
+    Duration: 2
+  - Active: 1
+    MidiNoteNumber: 32
+    Duration: 1
+  - Active: 1
+    MidiNoteNumber: 32
+    Duration: 1
+  - Active: 1
+    MidiNoteNumber: 32
+    Duration: 1
+  - Active: 1
+    MidiNoteNumber: 32
+    Duration: 1
+  - Active: 1
+    MidiNoteNumber: 32
+    Duration: 1
+  - Active: 1
+    MidiNoteNumber: 32
+    Duration: 1

@@ -1,0 +1,8 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+Bass Quartet,0.35,0.35,0.35,0.35,0,0,0,0,0,0
+Tenor Quintet,0,0,0,0,0.35,0.35,0.35,0.35,0.35,0
+Sextet,0.35,0,0.35,0,0.35,0,0.35,0,0.35,0
+Ad-Lib,0,0.35,0,0.35,0,0.35,0,0.35,0,0.35
+Humming,0,0,0,0,0,0,0,0,0.35,0
+Bass & Hum,0.35,0.35,0,0,0,0,0,0,0.35,0
+Meditative,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0

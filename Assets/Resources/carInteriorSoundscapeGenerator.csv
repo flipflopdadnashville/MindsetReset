@@ -1,0 +1,7 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+Slow Drive,0.65,0.55,0,0,0,0,0,0,0,0
+Residential Area,0,0.45,0.45,0,0,0,0,0,0,0
+Steady Drive,0,0.45,0,0.45,0,0,0,0,0,0
+Wet Asphalt,0,0.35,0,0,0.55,0.35,0,0,0,0
+Waiting in the Rain,0,0,0,0,0,0.35,0.35,0.35,0.35,0
+Turn Right then Left,0.5,0,0,0,0,0,0,0,0,0.4

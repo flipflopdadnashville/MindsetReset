@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73ca2ddbf6e022748a2db98a0c813735, type: 3}
+  m_Name: Envision
+  m_EditorClassIdentifier: 
+  saveConversation: 0
+  useDynamicMessages: 0
+  useStoryTeller: 0
+  messageList:
+  - objectType: 1
+    messageAuthor: 0
+    messageContent: Picture it Clearly
+    sentTime: 
+    audioMessage: {fileID: 0}
+    imageMessage: {fileID: 0}
+  dynamicMessages:
+  - messageID: 1
+    messageContent: It's a dynamic message...
+    replyContent: Sweet!
+    replyLatency: 1
+    replyTimer: 3
+    enableReply: 1
+  storyTeller:
+  - itemID: 1
+    messageAuthor: 0
+    messageContent: Story Time!
+    messageLatency: 1
+    messageTimer: 3
+    replies:
+    - replyBrief: More than one?
+      replyContent: Absolutely.
+      replyFeedback: C'mon man!
+      feedbackLatency: 1
+      feedbackTimer: 3
+      callAfter: 
+      onSelect:
+        m_PersistentCalls:
+          m_Calls: []
+    - replyBrief: 
+      replyContent: 
+      replyFeedback: 
+      feedbackLatency: 0
+      feedbackTimer: 0
+      callAfter: 
+      onSelect:
+        m_PersistentCalls:
+          m_Calls: []

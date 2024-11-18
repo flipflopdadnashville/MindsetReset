@@ -1,0 +1,7 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+Calm Low,0.4,0.35,0.3,0.25,0.2,0,0,0,0,0
+Calm High,0,0,0,0,0,0.2,0.25,0.3,0.35,0.4
+Calm Even,0.35,0,0.35,0,0.35,0,0.35,0,0.35,0
+Calm Odd,0,0.3,0,0.3,0,0.3,0,0.3,0,0.3
+Yin Dragon,0.25,0.4,0.25,0,0,0,0,0.25,0.4,0.25
+Yang Dragon,0,0,0,0.25,0.4,0.4,0.25,0,0,0

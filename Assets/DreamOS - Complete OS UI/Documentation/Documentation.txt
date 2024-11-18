@@ -1,0 +1,3 @@
+Documentation: https://docs.michsky.com/docs/dreamos/
+
+The old documentation can be also found here: https://docs.google.com/document/d/1t4_gCw8ceWn0m4A22AWhYnhlnEdExokjKS-u_xIX4Kc

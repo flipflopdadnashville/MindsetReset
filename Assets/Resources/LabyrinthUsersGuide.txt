@@ -1,0 +1,41 @@
+Instructions
+
+Labyrinth is a tool that is designed to help you create an atmosphere in which your mind can relax, focus, become calm, and heal. Should you so desire, you can also feed data into the system that you would like to focus on, and use your relaxed, focused, calm, and healing mind to process information.
+
+That being said, I would encourage you to think of Labyrinth as a playground, and as an environment in which "playground rules" apply.
+
+For those who are unfamiliar with this idiom, it can be reduced to the more familiar "the only rule is that there are no rules". When you enter the playground, you know it might be the most fun you'll have all day. You also acknowledge there is real risk, and you might end up injured if you don't behave wisely. So it is with Labyrinth. Labyrinth doesn't dictate what input you feed it, and if you choose to give it bad input, the output might also be poor. But if you feed it good input, you might just find your bliss - so it's a risk worth taking, wouldn't you say?
+
+For those who feel so stuck that they can't move forward without some direction, I will offer you the "6 Clicks to Bliss" Quick Start Guide, which will allow you to configure the application to produce something that you should find enjoyable each and everytime you execute the pattern (again, with the understanding that if you feed the system garbage, garbage will be what you get back). So, with no further ado, here is the "6 Clicks to Bliss Quickstart Guide".
+
+Click One: When the application loads spend some time just relaxing and listening to the pre-programmed input. When you feel ready to begin, click the screen to enter the controller, or what we call the HeadSpace.
+
+Click Two: Move your cursor (or tap the screen) at least 80% up the display. The HeadSpace menu will appear. Click on the "Moodscape" application, which is the middle icon in the middle set of icons on the menu (3 bars).
+
+Click Three: Click a folder that looks interesting to you. You can use the samples that come with the application, or you can load your own samples and use them instead (see below for instructions on how to load your own data into the system).
+
+Click Four: Click the "All Channels (Preset)" button on the bottom of the file browser. This will automatically load all 9 channels with a subset of the files in the folder.
+
+Click Five: Close the file browser by clicking on the "Close" icon in the upper right hand corner of the application.
+
+Click Six: Press the "A" key on your keyboard to expose the controls, then click on the grey "Randomize EQ" button in the bottom right hand corner (if you hover over the button you will see a description of what it does on the screen). This will send the balls on a totally unique journey that nobody but you has ever experienced. Sit back, close your eyes, relax, and enjoy the moodscape you just created.
+
+To expose all the other functionality of the application, experiment! There are lots of buttons to push, and keyboard shortcuts to explore. Enjoy the experience of learning and growing with the application. You can't break anything, so give yourself permission to learn like you did when you were a child - by TRYING, FAILING, and then TRYING AGAIN until you were satisfied with the results.
+
+We sincerely hope you enjoy using Labyrinth. If you have any ideas you would like to see us incorporate into the game, please feel free to contact us at <email here>. We're always looking for ways to improve our product, and many of our best ideas come from people just like you!
+
+LOADING DATA
+Labyrinth is currently designed to load all its data from what the Unity Engine calls the StreamingAssets folder. Where the folder is located will vary depending on what device you're using, and may change in the future depending on Unity's product roadmap. The easiest way to find the folder would be to Google "<My device's operating system> Unity Streaming Assets folder". We're going to list where the folder lives on the most common operating systems here, but remember, it could change in future releases:
+
+Windows: <Drive>:\<ApplicationInstallationFolder>\<<ApplicationName>_Data>\StreamingAssets
+for example: C:\Unity\RestAndRelax\Builds\LabyrinthLearning_Data\StreamingAssets
+
+Once you're inside the Streaming Assets folder, you'll see a "Data", "Sound", and "Video" folder.
+
+Data is where you put the .csv files that contain the information you would like to study in.
+Sound contains two folders: 
+
+Audio Samples - this is the data source for the Moodscape application
+Songs - this is the data source for the Music Player application
+
+

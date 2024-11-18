@@ -1,0 +1,7 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+Storm Winds,0.47,0.46,0.44,0.41,0.34,0.24,0.13,0,0,0
+Storm Rain,0,0,0.15,0.25,0.34,0.4,0.43,0.44,0.45,0
+Rainy Day,0,0,0,0,0,0,0.21,0.46,0.33,0
+Windy Day,0.39,0,0.37,0.38,0,0.39,0,0,0,0
+Attic Wind,0,0.39,0.3,0,0,0,0,0,0,0
+Hurricane Warning,0.38,0,0,0,0,0,0.23,0.4,0,0.41

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Shaders
+  m_EditorClassIdentifier: 
+  m_GroupName: Shaders
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b565e5089462788499011086d8ff9bab
+  m_SerializeEntries:
+  - m_GUID: b0b21b0a0eebc4640a613bcd2e7446fa
+    m_Address: Shaders/Mandlebrot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 703187e54c5149645907c679735dd6df
+    m_Address: Shaders/NoiseFlow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Shader
+  - m_GUID: ac46189d6e5d8a84787c83fbc83cfdc1
+    m_Address: Shaders/Kaleidoscope
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Shader
+  - m_GUID: e6fddcabe363fd247a85e78d155a73d9
+    m_Address: Shaders/Anaglyph3D
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Shader
+  - m_GUID: 93c6c60924fcc1e4986ca70ae62cf201
+    m_Address: Shaders/Painting
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Shader
+  - m_GUID: abaccdf381f41f548b6cfae7df5a88a3
+    m_Address: Shaders/Underwater
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Shader
+  - m_GUID: 6c3fa2c3b50cb484caee0d80bbaa3ed4
+    m_Address: Shaders/Outline
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 05cfb7ac8c9d59c4a884d25adf0848b7
+    m_Address: Shaders/Drawing
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 109fe5176c3a71e46bd4d254b47fc9a1
+    m_Address: Assets/AnimatedCosmos/Shaders/CosmosAnimated.shader
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Shader
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 56a1a671e700f7f48a8d8c61c8284db6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1abba1df93ed1f441a68b2509d224df8, type: 2}
+    - {fileID: 11400000, guid: 545ed5f2cd602fb4586923b00819863c, type: 2}

@@ -1,0 +1,9 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+Majestic,0.5,0.4,0.3,0.3,0.3,0.3,0.3,0.3,0.2,0.1
+Gigantic,0.55,0.35,0.45,0,0,0,0,0,0,0
+Fresh,0.0,0.1,0.2,0.3,0.3,0.3,0.3,0.3,0.2,0.1
+Watery,0,0.4,0,0,0,0,0,0.4,0.4,0
+Sparkling,0.0,0.0,0.1,0.2,0.2,0.2,0.2,0.2,0.3,0.4
+White Noisy,0.35,0,0.35,0.35,0,0.35,0.35,0,0,0
+Distant,0,0,0,0,0.4,0.3,0.2,0,0,0
+Close,0,0,0,0,0.2,0.3,0.4,0,0,0

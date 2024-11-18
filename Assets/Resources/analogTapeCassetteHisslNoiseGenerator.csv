@@ -1,0 +1,9 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+Premium Hiss Type IV,0,0,0,0,0,0,0,0,0,0.35
+Minicassette,0,0,0,0,0,0,0,0,0.35,0
+Tape Loops,0,0,0,0,0,0,0.35,0.35,0,0
+DeMAGNETized,0.2,0,0,0,0,0.35,0,0,0,0
+Aged Tape,0,0.25,0,0,0.35,0,0,0,0,0
+Garbage Collector,0,0.35,0,0.25,0,0,0,0,0,0
+Mono Head,0,0,0.35,0,0,0,0,0,0.2,0
+Stereo Head,0.35,0,0.2,0,0,0,0,0,0,0.35

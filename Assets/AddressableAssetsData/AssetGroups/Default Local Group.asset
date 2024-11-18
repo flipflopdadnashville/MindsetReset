@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a17863579efa45c4c8f31ceed53a68d8
+  m_SerializeEntries:
+  - m_GUID: c836c136a2f04bd4d804caeae91bfdf6
+    m_Address: Development/Scanlines
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9723db095f5f5f048ba3aae4e9848df1
+    m_Address: Development/Cinematic
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 92bc0c37ca2732c48a28c1ce41b4bb4a
+    m_Address: Development/ChromaticAberration
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cd5596bd74c12574d8c523f4fc576d00
+    m_Address: Development/Interference
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 656d90ebb1ec98a478c31da02f7d08de
+    m_Address: Assets/_Materials/JennieAndSylviaStickers.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 11d7e7cf656fa8746a34b9af2b15d59a
+    m_Address: Assets/AnimatedCosmos/Materials/cosmos 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 46a29f9a7cfccb3429a31d1582b1c113
+    m_Address: Assets/AnimatedCosmos/Materials/cosmos 2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1b928c1d601392c4a9c54a6a1f8188c0
+    m_Address: Assets/AnimatedCosmos/Materials/cosmos 3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7cafa83850992774d9a3e9971a6b42f8
+    m_Address: Assets/AnimatedCosmos/Materials/cosmos4.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c46115dc7499f8e4c848c9c3242c4644
+    m_Address: Assets/AnimatedCosmos/Materials/Mesh.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 198ceb92bbed2804f99dc8f8279e720a
+    m_Address: Assets/CrystalGlass/Glass2/Blur.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6cbc09b609122cc43bc414037a96044e
+    m_Address: Assets/_Materials/Camino.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6ec297eb9a7795a4fac6b209d4600f01
+    m_Address: Assets/_Materials/RainbowRoad.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d694cfc0c8c1acd45ae057eb43c56f72
+    m_Address: Assets/_Materials/JapanesePlant.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 56a1a671e700f7f48a8d8c61c8284db6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5f3d35a6cf035dd499e29e2a857ab2de, type: 2}
+    - {fileID: 11400000, guid: baa3a51e44a2c724283b7fa4ffe098b6, type: 2}

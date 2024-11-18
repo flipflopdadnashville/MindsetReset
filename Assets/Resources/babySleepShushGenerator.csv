@@ -1,0 +1,10 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+Long Shushes,0,0.35,0,0.35,0,0.35,0,0.35,0,0.35
+Chopped Shushes,0,0,0.4,0,0.4,0,0.4,0,0.4,0
+Occasionally,0.3,0,0,0,0,0,0.35,0,0,0
+Quieter And Quieter,.3,0.3,.35,0.3,0.27,0.24,0.21,0.19,0.16,0.13
+Sparse Shushes 1,0.35,0.35,0,0,0.35,0,0,0.35,0,0
+Sparse Shushes 2,0.35,0,0.35,0,0,0.35,0,0,0.35,0
+Sparse Shushes 3,0.35,0,0,0.35,0,0,0.35,0,0,0.35
+Shushes Only,0,0.23,0.33,0.41,0.45,0.43,0.37,0.29,0.23,0.26
+Lullaby,0.4,0,0,0,0,0,0,0,0,0

@@ -1,0 +1,13 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+main engine,0,0,0.5,0,0,0,0,0,0,0
+propeller,0.5,0,0,0,0,0,0,0,0,0
+auxilary engine,0,0,0,0.5,0,0,0,0,0,0
+purifier room,0,0,0,0,0,0,0.5,0,0,0
+inert gas generator,0,0,0,0,0,0,0,0,0,0.5
+Propeller Shaft,0.5,0.5,0,0,0,0,0,0,0,0
+Main Engine,0.4,0,0.5,0,0,0,0,0,0,0
+Generator Power,0,0,0,0.5,0.4,0,0,0,0,0
+Ventilation,0,0,0,0,0,0.5,0,0,0.3,0
+Ignition,0,0,0,0,0,0.3,0,0,0,0.4
+Humming Tones,0,0,0,0,0,0.35,0.35,0.35,0.35,0
+Air Compressor,0,0,0,0,0.5,0.3,0,0,0,0

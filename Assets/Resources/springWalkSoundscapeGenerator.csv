@@ -1,0 +1,11 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+6 AM,0,0,0,0.25,0.2,0.4,0.2,00,00,00
+10 AM,0,0,0,0.35,0.2,0.2,0.2,0.4,0.2,00
+2 PM,0,0,0.4,0,0.2,0.2,0.2,0.3,0.4,0.35
+6 PM,0,0,0,0.25,0.25,0,0.4,0.1,0.1,0.1
+Quiet Walk,0.4,0.4,0,0,0,0,0,0,0,0
+Almost Summer,0,0.2,0.4,0,0,0,0,0,0,0
+Weather Changing,0.2,0.2,0,0.35,0,0,0.2,0.2,0,0
+River Break,00,00,0.15,0.2,0.35,0.15,0.15,0.15,0.15,0.15
+At Dawn,0,0,0,0.1,0,0.35,0.25,0,0,0
+At Dusk,0,0,0,0.1,0,0,0.35,0.2,0,0

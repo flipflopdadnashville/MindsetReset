@@ -1,0 +1,8 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+Chordal,0.4,0,0,0,0,0.4,0.4,0.4,0.4,0
+Meditational,0.45,0,0,0,0.45,0.45,0,0,0.45,0
+Canon,0.4,0,0,0.45,0.4,0,0,0,0,0
+Canon (w/ voices),0.4,0,0,0.45,0.4,0,0,0,0,0.45
+Pilgrims,0.4,0.4,0,0,0,0,0,0.4,0.4,0.4
+Pattern,0.5,0.4,0.5,0,0,0,0,0,0,0
+Ornamental,0.4,0.4,0.4,0.4,0.4,0.4,0.55,0.55,0.55,0.4

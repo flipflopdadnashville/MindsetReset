@@ -1,0 +1,8 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+Minimal,0.35,0.35,0.35,0,0,0,0,0,0,0
+Remember,0.35,0,0,0,0.35,0.35,0,0,0,0
+Flash Back,0,0.35,0,0,0.35,0,0,0.35,0,0.1
+Flashes Again,0,0,0.35,0,0,0.35,0,0.35,0,0.1
+Looking Back,0,0,0.35,0.35,0,0.35,0.35,0.35,0,0
+Haunting,0.4,0.4,0,0,0,0,0,0,0.35,0.35
+Timeless,0,0,0,0.35,0,0,0.35,0.35,0,0

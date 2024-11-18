@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdf3c64a3f8691d4296e8c066e497849, type: 3}
+  m_Name: Outer Space
+  m_EditorClassIdentifier: 
+  coverImage: {fileID: 21300000, guid: 293ea6a99c4ba134cae49556942ee0ff, type: 3}
+  playlistName: JWR Playlist
+  playlist:
+  - musicTitle: Honey Is Sweet, But Nostalgia Is Bitter
+    artistTitle: Gigakoops
+    albumTitle: 
+    musicClip: {fileID: 8300000, guid: ab5db867ab6aa7b4d9dfa30d92b7b95b, type: 3}
+    musicCover: {fileID: 21300000, guid: 5f7fa9a7940a64e79b5a42d9f661d42c, type: 3}
+    excludeFromLibrary: 0
+  - musicTitle: Outer Space Light Years
+    artistTitle: Some Dude
+    albumTitle: Music From Outer Space
+    musicClip: {fileID: 8300000, guid: e71e6ed685eab8041a3f9ebf2e7b03b7, type: 3}
+    musicCover: {fileID: 21300000, guid: 5f7fa9a7940a64e79b5a42d9f661d42c, type: 3}
+    excludeFromLibrary: 0
+  - musicTitle: Mallet Play With Violin
+    artistTitle: Maarten Schellekens
+    albumTitle: 
+    musicClip: {fileID: 8300000, guid: d34873a765a639a479ce0d5e22147912, type: 3}
+    musicCover: {fileID: 21300000, guid: 5f7fa9a7940a64e79b5a42d9f661d42c, type: 3}
+    excludeFromLibrary: 0
+  - musicTitle: The Last Night
+    artistTitle: J. Wolsey Riggs
+    albumTitle: Soul Frames
+    musicClip: {fileID: 8300000, guid: b277142afe1722d49b6378c65f763f6f, type: 3}
+    musicCover: {fileID: 21300000, guid: 5f7fa9a7940a64e79b5a42d9f661d42c, type: 3}
+    excludeFromLibrary: 0
+  - musicTitle: Russian Orthodox Chant
+    artistTitle: Unknown
+    albumTitle: 
+    musicClip: {fileID: 8300000, guid: a88b559e7e10f384bad1e27deb8ef08d, type: 3}
+    musicCover: {fileID: 21300000, guid: 5f7fa9a7940a64e79b5a42d9f661d42c, type: 3}
+    excludeFromLibrary: 0
+  - musicTitle: Outer Space Light Years
+    artistTitle: Some Dude
+    albumTitle: Music From Outer Space
+    musicClip: {fileID: 8300000, guid: e71e6ed685eab8041a3f9ebf2e7b03b7, type: 3}
+    musicCover: {fileID: 21300000, guid: 5f7fa9a7940a64e79b5a42d9f661d42c, type: 3}
+    excludeFromLibrary: 0

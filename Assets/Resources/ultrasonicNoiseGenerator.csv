@@ -1,0 +1,15 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+Slider 1,0.5,0,0,0,0,0,0,0,0,0
+Slider 2,0,0.5,0,0,0,0,0,0,0,0
+Slider 3,0,0,0.5,0,0,0,0,0,0,0
+Slider 4,0,0,0,0.5,0,0,0,0,0,0
+Slider 5,0,0,0,0,0.5,0,0,0,0,0
+Slider 6,0,0,0,0,0,0.5,0,0,0,0
+Slider 7,0,0,0,0,0,0,0.5,0,0,0
+Slider 8,0,0,0,0,0,0,0,0.5,0,0
+Slider 9,0,0,0,0,0,0,0,0,0.5,0
+Slider 10,0,0,0,0,0,0,0,0,0,0.5
+Starry Night,0.33,0.33,0.33,0,0,0,0,0,0,0
+Quiet Night,0.2,0,0.36,0.37,0.37,0.24,0,0,0,0
+Bats,0.15,0.15,0,0,0,0,0,0,0.8,0
+Ultrasonic,0,0,0,0,0,0,0.4,0.4,0.4,0.4

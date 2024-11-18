@@ -1,0 +1,367 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mandlebrot
+  m_Shader: {fileID: 4800000, guid: b0b21b0a0eebc4640a613bcd2e7446fa, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _COMBINATION_ONE
+  - _SEAMLESS
+  - _WEATHERMAKERFOGMODE_LINEAR
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BASE_COLOR_MAP:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BUMP_MAP:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorRampTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Distortion:
+        m_Texture: {fileID: 2800000, guid: 9c73f3d83833eb24185a2327738583a2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DrawingTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EMISSION_COLOR_MAP:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EnvTex:
+        m_Texture: {fileID: 8900000, guid: 66bd52941144803499c5453208a19277, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FirstTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FourthTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _InterferenceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeftTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _METALNESS_MAP:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: e229a609b3dd3674585a1d940b340fc0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MandalaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 976d2c45af8894b7cb7f2e91862beb62, type: 3}
+        m_Scale: {x: 5.87, y: 59.84}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _REFLECTIONS_COLOR_MAP:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _REFLECTIONS_IOR_MAP:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _REFLECTIONS_ROUGHNESS_MAP:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RainbowTex:
+        m_Texture: {fileID: 2800000, guid: a1eb2edff083f44478ffd615a0f0df7c, type: 3}
+        m_Scale: {x: 5.1, y: -2.85}
+        m_Offset: {x: -1.06, y: 0}
+    - _Reflection:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RightTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScrollTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SecondTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SparkleNoiseTex:
+        m_Texture: {fileID: 2800000, guid: bbe7762b406bdb2418b546943eed56c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TRANSPARENCY_MAP:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TerrainHolesTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexA:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexB:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexG:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TexR:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThirdTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AA: 2
+    - _AdvectionFactor: 0.77
+    - _AmbientLightMultiplier: 2
+    - _Angle: 0
+    - _Aspect: 1.777
+    - _Attenuation: 0.5
+    - _BASE_COLOR_WEIGHT: 1
+    - _BUMP_MAP_STRENGTH: 0.3
+    - _BarrelPower: 1
+    - _Bias: 0
+    - _BumpScale: 1
+    - _Color: 0.9
+    - _Combination: 0
+    - _Cutoff: 0.5
+    - _DLightPow: 0.5
+    - _Darken: 0
+    - _Density: 0.001
+    - _Desaturate: 0
+    - _DetailNormalMapScale: 1
+    - _DirectionalLightMultiplier: 1
+    - _DisplacementFieldRotationSpeed: 6
+    - _DisplacementFieldScale: 1
+    - _DisplacementStrength: 0.5
+    - _DstBlend: 0
+    - _EMISSION_WEIGHT: 1
+    - _FAR: 250
+    - _Falloff: 0.25
+    - _FogStrength: 0.1
+    - _Frequency: 1
+    - _FresnelAlpha: 0
+    - _FresnelPower: 0
+    - _FrezFalloff: 4
+    - _FrezPow: 0.2
+    - _Gamma: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Glow: 0
+    - _HITTHRESHOLD: 0.009
+    - _IFSRadius: 0.5
+    - _IFSScale: 2.3
+    - _IFSTranslate: 1.5
+    - _IOR: -0.95
+    - _IOROffset: -0.05
+    - _IndexG: 0.9
+    - _IndexR: 0.8
+    - _Inverted: 0
+    - _IsTimeControlled: 0
+    - _Jitter: 1
+    - _KernelSize: 17
+    - _Lacunarity: 2
+    - _Lighten: 1
+    - _Lod: 0
+    - _MAXSTEPS: 50
+    - _METALNESS: 0
+    - _MandalaLayers: 0
+    - _MandalaRotationShift: 0
+    - _MandalaScaleShift: 0
+    - _MatCapAccurate: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NIFS: 6
+    - _NoiseTexScale: 0.01
+    - _NormFactor: 1
+    - _OcclusionStrength: 1
+    - _Octave: 6
+    - _OctaveScale: 2
+    - _Octaves: 1
+    - _Offset: 0.5
+    - _OverlayOffset: 0
+    - _Parallax: 0.02
+    - _Period: 2
+    - _Persistance: 0.5
+    - _PointSpotLightMultiplier: 1
+    - _Power: 1
+    - _QueueControl: -1
+    - _QueueOffset: 0
+    - _REFLECTIONS_IOR: 1.52
+    - _REFLECTIONS_ROUGHNESS: 1
+    - _REFLECTIONS_WEIGHT: 1
+    - _RainbowInten: 1
+    - _RangeMax: 1
+    - _RangeMin: 0
+    - _Reflection: 0.5
+    - _ReflectionMulti: 1
+    - _RotationSpeed: 2
+    - _Scale: 5
+    - _ScaleX: 1
+    - _ScaleY: 1
+    - _ScrollDirection_X: 0
+    - _ScrollDirection_Y: 0
+    - _Seamless: 1
+    - _SegmentCount: -21.919998
+    - _Shininess: 0.078125
+    - _Size: 1
+    - _SmoothnessTextureChannel: 0
+    - _SparkleAnimSpeed: 38.03
+    - _SparklePower: 1026.38
+    - _SpecularHighlights: 1
+    - _Speed: 1
+    - _SquaredDistance: 0
+    - _SrcBlend: 1
+    - _Strength: 0.05
+    - _TRANSPARENCY: 0
+    - _Threshold: 0.5
+    - _Tiling: 1
+    - _TimeSpeed: 1
+    - _Transparency: 1.05
+    - _UVSec: 0
+    - _UseMagicAlpha: 0
+    - _Variation: 0
+    - _WeatherMakerFogDensity: 0.05
+    - _WeatherMakerFogFactorMax: 1
+    - _WeatherMakerFogMode: 2
+    - _WeatherMakerFogNoiseMultiplier: 0.15
+    - _WeatherMakerFogNoiseScale: 0.0005
+    - _ZWrite: 1
+    m_Colors:
+    - _Area: {r: 0.36, g: 0.099999994, b: 0.06771504, a: 0.038100213}
+    - _BASE_COLOR: {r: 1, g: 1, b: 1, a: 1}
+    - _BGColour: {r: 0, g: 0, b: 0, a: 1}
+    - _BackgroundColor: {r: 0, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Color1: {r: 1, g: 1, b: 1, a: 1}
+    - _Color2: {r: 1, g: 1, b: 1, a: 1}
+    - _Color3: {r: 1, g: 1, b: 1, a: 1}
+    - _Color4: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorMultiplier: {r: 1, g: 1, b: 1, a: 1}
+    - _EMISSION_COLOR: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FlowSpeeds: {r: 0.6, g: 0.6, b: 1.9, a: 1.9}
+    - _FresnelColor1: {r: 0.6828132, g: 0.15294114, b: 0.93333334, a: 1}
+    - _FresnelColor2: {r: 0.990566, g: 0.9178002, b: 0.07943219, a: 1}
+    - _MandalaTexST: {r: 1, g: 1, b: 0, a: 0}
+    - _REFLECTIONS_COLOR: {r: 1, g: 1, b: 1, a: 1}
+    - _ReflectionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ScrollColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _Speed: {r: 0, g: 1, b: 0, a: 0}
+    - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _WaterColour: {r: 1, g: 1, b: 1, a: 1}
+    - _WeatherMakerFogBoxCenter: {r: 0, g: 0, b: 0, a: 0}
+    - _WeatherMakerFogColor: {r: 0, g: 1, b: 1, a: 1}
+    - _WeatherMakerFogNoiseVelocity: {r: 0.01, g: 0.01, b: 0, a: 0}
+    - _WeatherMakerFogSpherePosition: {r: 0, g: 0, b: 0, a: 0}
+    - _WeatherMakerFogVolumePower: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

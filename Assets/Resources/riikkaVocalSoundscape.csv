@@ -1,0 +1,8 @@
+name,volumeZero,volumeOne,volumeTwo,volumeThree,volumeFour,volumeFive,volumeSix,volumeSeven,volumeEight,volumeNine
+Roots,0.5,0.4,0.3,0.0,0,0,0,0,0,0
+Trunk,0,0,0,0.35,0.35,0.35,0.35,0.35,0,0
+Leaves,0,0,0,0,0,0,0,0,0.4,0.4
+Healing,0.45,0,0.3,0,0.3,0,0.45,0,0.25,0.3
+Ethereal,0,0,0,0.35,0.35,0,0,0,0,0.35
+Mono Tone,0,0.45,0.35,0,0,0.35,0,0,0,0
+Spring Again,0,0,0.35,0,0.35,0.3,0.45,0.45,0.3,0.2

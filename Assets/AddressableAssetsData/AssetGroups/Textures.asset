@@ -1,0 +1,1000 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Textures
+  m_EditorClassIdentifier: 
+  m_GroupName: Textures
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 0e46652bec5756547bd4eaff62aa8ec3
+  m_SerializeEntries:
+  - m_GUID: 9e6134a7e0acff5469e975bd2bad2c7c
+    m_Address: MazeMaterials/Bricks Texture 04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: a18abef98c5ba2244ac2a0f5a167ac9b
+    m_Address: MazeMaterials/Bricks Texture 05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: f01a3d51014ab454f88219b57906de49
+    m_Address: MazeMaterials/Bricks Texture 06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 481081be4ba7a1e40b8397e540a4fadd
+    m_Address: MazeMaterials/Bricks Texture 07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 05148c57091ec1f478f0836d7c97687e
+    m_Address: MazeMaterials/Bricks Texture 08
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: dc731d85e818dc5498d5d4c419eb1e50
+    m_Address: MazeMaterials/Bricks Texture 09
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 1ee98000c92975f409b1efefe2c96319
+    m_Address: MazeMaterials/Bricks Texture 10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: f986bcefa5db6b249bb220e994dc673b
+    m_Address: MazeMaterials/Bricks Texture 11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: b31461640135f3c4bb1e516c81dde20a
+    m_Address: MazeMaterials/Bricks Texture 12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: f7325cc41bc0bb24299a03023e8c22cd
+    m_Address: MazeMaterials/Bricks Texture 13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: dc1d697d05c89b84d97bee70d240bda8
+    m_Address: MazeMaterials/Bricks Texture 14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 76f528349affde5428881e8f3aa0d625
+    m_Address: MazeMaterials/Bricks Texture 15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 6be42ad1a26f310418919a3e38d5fee2
+    m_Address: MazeMaterials/Wood Texture 01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 4d190e0716c350545b395220aa26be1f
+    m_Address: MazeMaterials/Wood Texture 02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: cb39ceb082f037142a30395b3b32cbb9
+    m_Address: MazeMaterials/Wood Texture 03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 5727a033bf6e31d43957ce11efc1c726
+    m_Address: MazeMaterials/Wood Texture 04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 2ddc4208478827a44be15793258b4a62
+    m_Address: MazeMaterials/Wood Texture 05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: f220c64c5e4b74245a34451232686037
+    m_Address: MazeMaterials/Wood Texture 06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 6cdcc6851c4e75b40a0a01569bfc23f3
+    m_Address: MazeMaterials/Wood Texture 07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 7e62daffa38454149acd79758556ff80
+    m_Address: MazeMaterials/Wood Texture 08
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: d1dc96e70776b274287837caf3bb05e9
+    m_Address: MazeMaterials/Wood Texture 09
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 5115402cc2c26ae4487c1ff85e86cd07
+    m_Address: MazeMaterials/Wood Texture 10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: c106d2ab88bba2d44a357c3bdce4326e
+    m_Address: MazeMaterials/Wood Texture 11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: b419b368302891947bd30a8a1ad32bf0
+    m_Address: MazeMaterials/Wood Texture 12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 38be4847bc237b549b8ea78e38786937
+    m_Address: MazeMaterials/Wood Texture 13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 99c881dd440367f4d81f7dec7191572e
+    m_Address: MazeMaterials/Wood Texture 14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 711e32d876356ff45a45de0f8bcdfc4b
+    m_Address: MazeMaterials/Wood Texture 15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 6bfd85cd2879a7b43912edb6cc9c1f10
+    m_Address: MazeMaterials/Bricks Texture 01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 07b602e342855524d84248704656e0e9
+    m_Address: MazeMaterials/Bricks Texture 02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: e0929866de04bf347a208616974adbf1
+    m_Address: MazeMaterials/Bricks Texture 03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 4daa1eb8896770a49b2d663d4aea64d6
+    m_Address: Textures/Cells_14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: ec8d1a521efdca44fa0f68931bcfa508
+    m_Address: Textures/Cells_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: e5b892b33e4e87a4388f1ec3d6ffa993
+    m_Address: Textures/Cells_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: caff49b0d703fac41bdfc2277a1f1bd8
+    m_Address: Textures/Cells_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 9b49a303844d6e642bf8a66ae32b97ea
+    m_Address: Textures/Cells_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 2a9043e9872c64d4e926d1c75bf03a24
+    m_Address: Textures/Boxes_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 9ec13a3c5f2a2d045bd9e892edaebae8
+    m_Address: Textures/Cells_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: ee7cb6f5333dc964eb1b24c200f9ceb8
+    m_Address: Textures/Cells_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 282abbdb60acc37448495ab8aee08fbd
+    m_Address: Textures/Boxes_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 0b4272b08a6d2d34fa3849cec9c50768
+    m_Address: Textures/Cells_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 714f4664f55c45c46b53f75dcd662d4d
+    m_Address: Textures/Cells_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: f7a058eb8f5cafa4f90fd32178e6486d
+    m_Address: Textures/Cells_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: d082601b1ea0d5f42a2e86f87ed02334
+    m_Address: Textures/Cells_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: e5acafa73a8d7b942a843c7cf290a992
+    m_Address: Textures/Cells_9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 77d44594dae5a61449345ebb7621eae1
+    m_Address: Textures/Cells_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 8bc849773052fe8449c9b3efde2785ad
+    m_Address: Textures/artistic_noise_filtered_02d435b6-f0d3-4a34-a65b-083294f70faa
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 7229a6ae0ecc7194bbe228289cb3f2c1
+    m_Address: Textures/Cells_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 1933930879ea2bb4ba7c5f48ede12c0d
+    m_Address: Textures/colorful_tunnel_structure_with_abstract_spheres
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 044849b992e855f439f04f581ea8842c
+    m_Address: Textures/ee46da08-bce0-4c8e-90f5-06c9a3833977
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 40253812181321245950f780c98e4712
+    m_Address: Textures/Fire_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: d410eaa4d31a4ef418f3c2051a2f209d
+    m_Address: Textures/Fire_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 2765389b4e5dd8545896043b5b7fe7be
+    m_Address: Textures/Fire_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: d57a69fdccca6d34abbd04db0181936f
+    m_Address: Textures/Fire_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 72e5007a975a57a43ba4d4b37fbe237b
+    m_Address: Textures/Fire_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: f6440be864ade564fa3a0cab07aec13a
+    m_Address: Textures/Fire_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 30fb0fa4ec6eb774293c6f0d21aea2ee
+    m_Address: Textures/Fire_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 5ab05a109d2d7624696eaf0923ba4081
+    m_Address: Textures/Geometric_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 769922401eb34494ebc5a9f9e24b2191
+    m_Address: Textures/Geometric_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: a75060d2f09f8a540aa33a0b0f81d454
+    m_Address: Textures/Geometric_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 1f011c5642c75d14eb75088fe4c57c6e
+    m_Address: Textures/Geometric_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 4294505288c2b004b93d78ba6667a547
+    m_Address: Textures/Geometric_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 4f9361958232e2142881f6de20af75e1
+    m_Address: Textures/Geometric_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: d14f69bb02036a04fb25bf099efa3081
+    m_Address: Textures/Geometric_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 6469ff1f02aba0a4c8a958104ac94866
+    m_Address: Textures/Geometric_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: e0e690cbb9efa11479a043c2161f8c84
+    m_Address: Textures/Geometric_9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 2a1c804cac5081e428f5cad9e8bfd6bb
+    m_Address: Textures/Geometric_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: c3f9479279305ff44895022d3468c348
+    m_Address: Textures/Geometric_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 43276e0bf183d4a4f87bd4acde8c078a
+    m_Address: Textures/Geometric_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: a53f28be4cd89a1499e3e86442b9f4a4
+    m_Address: Textures/Geometric_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 08fbde810873fcb4094fdfacdfdf01ae
+    m_Address: Textures/Geometric_14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: dc4caf105efdcfe4892b90de0267a9c4
+    m_Address: Textures/Geometric_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 39eaebd3354551f41885eaca75ab5309
+    m_Address: Textures/Geometric_16
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 865c63685ee89b44dbbd89e030ad8892
+    m_Address: Textures/Geometric_17
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 93bdf00ddccbc5648a4e9ccc4370787e
+    m_Address: Textures/Geometric_18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: f29dae9ecf6e3b94c9870516b6f56de1
+    m_Address: Textures/hope_and_light_in_tired_world_structure_10354756-a63a-4b5e-8aae-3b52d11e49ba
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 45d1a5b4644445845ab25e18063040db
+    m_Address: Textures/hope_in_a_tired_world
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: a5590deababb7e2458cf40885ef4a1dc
+    m_Address: Textures/hope_in_a_tired_world_47d334fd-5c56-486d-b68c-d733968144cc
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 4d5f6ebf8ae8a3a4aa4ce1ac4758da2d
+    m_Address: Textures/jesus-of-nazareth-min
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 71323b492c962084093220e3e09643de
+    m_Address: Textures/kulebyak2.0_one_more_last_letter_abstract_depressed_36a9e1d1-94e7-414c-be9e-ea74dfa1fdc8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 12c4584c32b50d0448a9ccb4004c678b
+    m_Address: Textures/Lali_people_having_fun_with_colorful_light_structures_2db14bb3-e070-41fc-8f65-6ec2cdaba100
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: e0bc9532252fdac43a88e7e25fb7d4fd
+    m_Address: Textures/liquid_rainbow_8b45c964-270b-4f62-9677-74162a45548a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: fa92de03f4cae5c408e287f8da08b2e4
+    m_Address: Textures/metal 1 bump
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 27a008abba4741a449c0bcb7d42c5f42
+    m_Address: Textures/metal 1 diff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 0d5259170a0151b49976e9176218dd87
+    m_Address: Textures/metal 1 full
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 48621833ef6d81948b8310003f2167fb
+    m_Address: Textures/metal 1 fx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 31cff51ea8bff004197f66a59e10aab8
+    m_Address: Textures/metal 1 norm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 0af2c34d9d6d5bc4ea9ded5dd44b0a3b
+    m_Address: Textures/metal 2 bump
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 448cebbf58773e443932524348504f27
+    m_Address: Textures/metal 2 diff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 1f66f0fdbacd246459340dfb601f0b0b
+    m_Address: Textures/metal 2 full
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 8124df41be2fa994fb537a18e1ed7860
+    m_Address: Textures/metal 2 fx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 7c97f42834930664189e018c7c68a2ba
+    m_Address: Textures/metal 2 norm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: dfc5edab96273714590d4fc19a21433a
+    m_Address: Textures/metal 3 bump
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: b3cd82463692ec24c9a19f2575a330de
+    m_Address: Textures/metal 3 diff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: bc43524f8331b624e847a1664eeb8c18
+    m_Address: Textures/metal 3 full
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 8feed8a6f7a0caa42aadbb13e55f365e
+    m_Address: Textures/metal 3 fx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 357e8b94071517e4c939b2ff98de1a3c
+    m_Address: Textures/metal 3 norm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: f5ce0bc39fa8f2e489490d81b8af264a
+    m_Address: Textures/metal 4 bump
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 203cbd8bafbf00a43af800b3be4a6bd1
+    m_Address: Textures/metal 4 diff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 80b855a51122c9649a2a5ea92a11b4c3
+    m_Address: Textures/metal 4 full
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: da1071c3c01085e4d99c03fe518d8ebc
+    m_Address: Textures/metal 4 fx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: c26e120676927334a9032960a45733fb
+    m_Address: Textures/metal 4 norm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 1ec03d339296e614f85b342dded9a1cf
+    m_Address: Textures/metal 5 bump
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: e11aaa3072962bb44843ecd53eb98712
+    m_Address: Textures/metal 5 diff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: a1d9aef8eefc5554bbe2427282c59e68
+    m_Address: Textures/metal 5 full
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: ac656c595be8c9b419ea3db62213e766
+    m_Address: Textures/metal 5 fx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: cb76737bb832c274a93b3e115061dbb6
+    m_Address: Textures/metal 5 norm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 48b5236d873aded4ba81d69e1fac429f
+    m_Address: Textures/metal 6 bumps
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 985a8064240c0254198a1bc9af7ddcd4
+    m_Address: Textures/metal 6 diff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: a9fbea71396037f47b219f4f97e0f5a6
+    m_Address: Textures/metal 6 full
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: b555ee35567f1f941b78a635f39b3895
+    m_Address: Textures/metal 6 fx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: b7209731971403745aad4d8385f0d4e6
+    m_Address: Textures/metal 6 norm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 32b48c44c9cdd2649a033ed0313d000e
+    m_Address: Textures/metal 7 bump
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: bb4de06090ff0834290a7c29df07d75a
+    m_Address: Textures/metal 7 diff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 924fae83906c7b44aae519f6429cd8bf
+    m_Address: Textures/metal 7 full
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: e32cfd6cae8ce294c9ebeb0a2247adc2
+    m_Address: Textures/metal 7 fx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 4180ce4b319262348ae8793a7c2cbdc0
+    m_Address: Textures/metal 7 norm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 520de2fc424fc5f4ca3dc79a75f5d3b4
+    m_Address: Textures/metal 8 bump
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 92c3f16570abdcc43a73534dc9444fb6
+    m_Address: Textures/metal 8 full
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 090435b01bc2f714394065cfe5b5e1e6
+    m_Address: Textures/metal 8 fx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 711c961db12c8d6478281cd040db9cc5
+    m_Address: Textures/metal 8 norm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 01cf4a95aaaa1ff4f978d94760f922ce
+    m_Address: Textures/metal 9 bump
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 4f6ece58fd88d914587a4f7acc787aa6
+    m_Address: Textures/metal 9 full
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 344fb416539974243944678d75f983fd
+    m_Address: Textures/metal 9 fx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 36c2cc1b8b0c4aa4c82080f2e994d783
+    m_Address: Textures/metal 9 norm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 1c8e574d55fb3764097634c3b8caef93
+    m_Address: Textures/metal 10 bump
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: aa32e8ddfbdfff84883c923d54e7eca6
+    m_Address: Textures/metal 10 diff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: e65b40e2e1bfec84886d8122d06b71ac
+    m_Address: Textures/metal 10 full
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 988eddb0779447646b3b3705fdf85f63
+    m_Address: Textures/metal 10 fx
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: aba6791dcfa863149a159657033dd9f9
+    m_Address: Textures/metal 10 norm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: f2da8905a03f5424b85a9ebc24a2a8bf
+    m_Address: Textures/Mountains_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 9bf9dc4421d6f324c87c5edf5619c49e
+    m_Address: Textures/Mountains_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 0dc0cc0b0fc47d14a80a41105b98d112
+    m_Address: Textures/Mountains_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: d3f79f8c2ef01ed4f9462171cb1dd165
+    m_Address: Textures/Mountains_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: af34bee5cfb168a49af4d53188cea959
+    m_Address: Textures/Mountains_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 673fcf9363a347d4283c158f6a95c139
+    m_Address: Textures/Mountains_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 2d26dd383606b484dac93c060530e449
+    m_Address: Textures/Mountains_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 3d18914959bd8524780ce6101541a721
+    m_Address: Textures/Mountains_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: dc6c58516c1e5404c868f1fe105cbffd
+    m_Address: Textures/Simple_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: fd1ee13761d00874b8daee86fd08c26d
+    m_Address: Textures/Simple_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 81a4117d277276d4abb58f539780bee4
+    m_Address: Textures/Simple_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 7669c9dd21dcc0142bd1ad47a51439d0
+    m_Address: Textures/Simple_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 7940d1841eda42a44b03d98e9fb982a8
+    m_Address: Textures/Simple_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 7427169a1838ba5449b65c780acba2c9
+    m_Address: Textures/Simple_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 799e2e18976a8d44f82e16b9442d7b05
+    m_Address: Textures/Simple_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 52bbf5dcd9f00f8468c95f1d8c0c61a4
+    m_Address: Textures/Simple_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: a629816d35e829342907e4c3659d3269
+    m_Address: Textures/Simple_9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 1ec65866c629460418e011d0ae15017a
+    m_Address: Textures/Simple_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 1cb66c70cc0ead64884bde625cab8f37
+    m_Address: Textures/Simple_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 89cf7a71aff41554a8ba1cba2502cb5b
+    m_Address: Textures/Simple_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 7e4899a9c48029f41bc8e4d9138f08af
+    m_Address: Textures/Simple_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 5a0d633dadc61194e90a70aa50252669
+    m_Address: Textures/Simple_14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 869060ddce659e24cb0c634e590d112a
+    m_Address: Textures/Simple_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: a8ba5f7e8422fa94bb2db201c396299c
+    m_Address: Textures/solitude_of_the_highest_order_6cc42e5e-e558-499d-8b27-f3ea2f9a7d8f
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 83ff4544b34e1244cb970fd5bdba710d
+    m_Address: Textures/solitude_of_the_highest_order_af7cc4e9-0ef0-424c-87ae-b96bd49fd899
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: dd09282146b6ffe478cc0f6326739eee
+    m_Address: Textures/StainedGlass_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 1574bfbee4a4e294ab1fb0c89721f461
+    m_Address: Textures/StainedGlass_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 54c9514d3305422408497689b06c6bc4
+    m_Address: Textures/Swirls_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 5bd404c816151384ea51dbdf8becc74a
+    m_Address: Textures/Swirls_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 904ed15552cab35419064703dc5dec20
+    m_Address: Textures/Swirls_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 485e3e34fb109674e8c9816550d8470c
+    m_Address: Textures/Swirls_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 9ce0f085fbe624c42b3649c1f1c7c369
+    m_Address: Textures/Swirls_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 8441d2fdb1823384080661d643ed3dbb
+    m_Address: Textures/Swirls_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: db00116d8fd6873469718c5cf57c3aba
+    m_Address: Textures/Swirls_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 7c69aad16d38be24e932218f40adc090
+    m_Address: Textures/Swirls_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 0a4f1df49366599499d239a945185257
+    m_Address: Textures/Swirls_9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 348e21d18f63f3943b917e9eab68e3e4
+    m_Address: Textures/Swirls_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: e17517db7a8ba8f49bfc43e68278fdbf
+    m_Address: Textures/Synop_liquid_rainbow_4a6240ad-1008-4275-b070-b525cfae29d7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 028c710e1bb827e429121b8d9a4f0bf1
+    m_Address: Textures/The_Beginning_994cdf99-afd3-411f-bacb-3d9d0d7b0613
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 1962a1081e4b128438558d192af9a85e
+    m_Address: Textures/Vines_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 79fc0e51c0182af408e74de9e31ba764
+    m_Address: Textures/Vines_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: b6f6edaa0742a0346801ca5c0034e5d9
+    m_Address: Textures/Vines_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: b5e7183b806cab94cb5c08293d74d535
+    m_Address: Textures/Vines_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: df58dd56e57f43c4fbb614794d17e552
+    m_Address: Textures/Vines_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 2537f97074a27a5478fbebdb71e2c71f
+    m_Address: Textures/Vines_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: a4ae8785b78ef324d949e48400913c78
+    m_Address: Textures/Vines_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: c00a922d7ede3ae4eb188ece29530411
+    m_Address: Textures/Vines_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 02083bae63496bb4aa01208caeea997f
+    m_Address: Textures/Vines_9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 0203bc3bf47efb84ca5cf01effeed7ba
+    m_Address: Textures/Waves_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: ac2285637d41c0249a118b1a0e12f4e5
+    m_Address: Textures/Waves_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 28b17e8a2add54b43b7781309cf026a0
+    m_Address: Textures/Waves_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 6d6327edf0ed7324d999e71b78630874
+    m_Address: Textures/Waves_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 64b130e0b5664b04196be951d961c362
+    m_Address: Textures/Waves_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 1501f08ab913baf4eb05af6f28ab09c2
+    m_Address: Textures/Waves_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: e22e95c1837c832479e031f29617a68c
+    m_Address: Textures/Waves_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 78a4bf41bea793244a388c0901cf9890
+    m_Address: Textures/Waves_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 3170976b6dbd96043ad5735cbdbda5d0
+    m_Address: Textures/Waves_9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 013261be75c06834e86618d19e5c7dae
+    m_Address: Textures/Waves_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 1b1973d736d30fc418c3a5f2feaea8a6
+    m_Address: Textures/Waves_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 04979d86890657041aad253543bfc482
+    m_Address: Textures/Waves_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 6f7af2796d00f4f4f994894df81465f5
+    m_Address: Textures/Waves_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: bb820d06802928443a97de67a15135c4
+    m_Address: Textures/Waves_14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 43abd0e26d33c8742bfca9c8377bea7e
+    m_Address: Textures/Waves_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 872f6fde400d1bb409d394f4382cdf91
+    m_Address: Textures/Waves_16
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: b73970be60188054984c60e734b5a65f
+    m_Address: Assets/_Textures/jwrOne.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  - m_GUID: 150ffa7a98931b34684f8d50993a3426
+    m_Address: Assets/_Textures/jwr0001.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Texture
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 56a1a671e700f7f48a8d8c61c8284db6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 189e94c0380dd1745942a0bfee279b42, type: 2}
+    - {fileID: 11400000, guid: ab826a36e1541c345b9ae7544ec16434, type: 2}
