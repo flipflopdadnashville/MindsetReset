@@ -1,0 +1,5804 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &296876535076739140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 262627855503150786}
+  - component: {fileID: 5922619076773350225}
+  - component: {fileID: 7556136098363121464}
+  - component: {fileID: 679014106422483012}
+  m_Layer: 0
+  m_Name: MIDI_Module_Lead_screamer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &262627855503150786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296876535076739140}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7700801955631291707}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5922619076773350225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296876535076739140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33604d080d7665045829454061bf5793, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beatInstances: []
+  pendingPostProcess: 1
+  active: 1
+  sequenceIndex: -1
+  manualRegenOnly: 0
+  masterClock: {fileID: 7357135572206354715}
+  srcMIDI:
+  - midiFileInputObj: {fileID: 102900000, guid: b891fabfc0099be4f90dc98d1f490b66, type: 3}
+    channelFilter: -1
+    loopBarCount: 12
+    assessClipFromBeat: 0
+    applyPitch: 1
+    semitoneTranspose: -12
+    init: 1
+  enteredNotes: 80
+  foundNotes: 220
+  dataFoundStartingFromBeatNumber: 0
+  MIDISrcedBeatInstances:
+  - filePath: Assets/AutoMusic/Audio/MIDI_Demo/boch_violin_export_02.mid
+    beatInstances:
+    - noteFractionOffsets:
+      - 0
+      - 0.25
+      - 0.5
+      - 0.75
+      noteOutputs: 00000000000000000000000000000000
+      pitches:
+      - 1.6817918
+      - 1.5874002
+      - 1.6817918
+      - 1.8877473
+      velocities:
+      - 0.43307087
+      - 0.37795275
+      - 0.511811
+      - 0.5984252
+      stepsDuration:
+      - 1.0416666
+      - 1
+      - 1
+      - 0.91666675
+      ties: 00000000
+      clipStartOffsets:
+      - 0
+      - 0
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 0.8408966
+      velocities:
+      - 0.48031497
+      - 0.33070865
+      stepsDuration:
+      - 1.625
+      - -1
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0.5
+      noteOutputs: 00000000
+      pitches:
+      - 1.059463
+      velocities:
+      - 0.5590551
+      stepsDuration:
+      - 8.041667
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0.5
+      noteOutputs: 00000000
+      pitches:
+      - 1.2599207
+      velocities:
+      - 0.63779527
+      stepsDuration:
+      - 0.916667
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.2599207
+      - 1.1224619
+      velocities:
+      - 0.48818898
+      - 0.43307087
+      stepsDuration:
+      - 2
+      - 1.083334
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.875
+      - 0.9375
+      noteOutputs: 000000000000000000000000
+      pitches:
+      - 1.1224619
+      - 1.1224619
+      - 1.2599207
+      velocities:
+      - 0.4566929
+      - 0.13385826
+      - 0.32283464
+      stepsDuration:
+      - 2.791666
+      - 0.25
+      - 8.166666
+      ties: 000000
+      clipStartOffsets:
+      - 0
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.25
+      - 0.5
+      - 0.75
+      noteOutputs: 00000000000000000000000000000000
+      pitches:
+      - 1.1224619
+      - 1.059463
+      - 1.1224619
+      - 1.2599207
+      velocities:
+      - 0.48031497
+      - 0.44094488
+      - 0.48031497
+      - 0.53543305
+      stepsDuration:
+      - 1.166666
+      - 1
+      - 1
+      - 0.91666603
+      ties: 00000000
+      clipStartOffsets:
+      - 0
+      - 0
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.1224619
+      - 0.62996083
+      velocities:
+      - 0.4566929
+      - 0.37007874
+      stepsDuration:
+      - 1.625
+      - -1
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0.5
+      noteOutputs: 00000000
+      pitches:
+      - 0.94387436
+      velocities:
+      - 0.61417323
+      stepsDuration:
+      - 8.041668
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0.5
+      noteOutputs: 00000000
+      pitches:
+      - 1.1224619
+      velocities:
+      - 0.6771653
+      stepsDuration:
+      - 0.91666794
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.1224619
+      - 1.059463
+      velocities:
+      - 0.44094488
+      - 0.42519686
+      stepsDuration:
+      - 2
+      - 1.0833321
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      noteOutputs: 00000000
+      pitches:
+      - 1.059463
+      velocities:
+      - 0.48818898
+      stepsDuration:
+      - 3.166668
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.75
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 1.414213
+      velocities:
+      - 0.68503934
+      - 0.27559054
+      stepsDuration:
+      - 3.041668
+      - 0.91666794
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.2599207
+      - 1.1892068
+      velocities:
+      - 0.44094488
+      - 0.40944883
+      stepsDuration:
+      - 2
+      - 1
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.1892068
+      - 1.1892068
+      velocities:
+      - 0.496063
+      - 0.503937
+      stepsDuration:
+      - 0.79166794
+      - 0.79166794
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.75
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 1.414213
+      velocities:
+      - 0.6456693
+      - 0.56692916
+      stepsDuration:
+      - 3.041668
+      - 0.91666794
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.2599207
+      - 1.1892068
+      velocities:
+      - 0.40944883
+      - 0.35433072
+      stepsDuration:
+      - 2
+      - 1
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.1892068
+      - 1.1892068
+      velocities:
+      - 0.48031497
+      - 0.46456692
+      stepsDuration:
+      - 0.7916641
+      - 0.7916641
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.75
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 1.414213
+      velocities:
+      - 0.56692916
+      - 0.30708662
+      stepsDuration:
+      - 3.0416641
+      - 0.9166641
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.5874002
+      - 1.2599207
+      velocities:
+      - 0.496063
+      - 0.4488189
+      stepsDuration:
+      - 0.7916641
+      - 0.7916641
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.059463
+      - 1.6817918
+      velocities:
+      - 0.42519686
+      - 0.5590551
+      stepsDuration:
+      - 0.7916641
+      - 0.7916641
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.07291603
+      - 0.19791603
+      - 0.32291603
+      - 0.4375
+      - 0.55208397
+      - 0.66666603
+      - 0.80208397
+      - 0.84375
+      - 0.91666603
+      noteOutputs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+      pitches:
+      - 1.5874002
+      - 1.414213
+      - 1.5874002
+      - 1.414213
+      - 1.5874002
+      - 1.414213
+      - 1.5874002
+      - 1.414213
+      - 1.2599207
+      - 1.414213
+      velocities:
+      - 0.7480315
+      - 0.44094488
+      - 0.2913386
+      - 0.44094488
+      - 0.28346458
+      - 0.44094488
+      - 0.30708662
+      - 0.44094488
+      - 0.15748031
+      - 0.4015748
+      stepsDuration:
+      - 0.29166412
+      - 0.45833588
+      - 0.41667175
+      - 0.375
+      - 0.375
+      - 0.33332825
+      - 0.375
+      - 0.29166412
+      - 0.29166412
+      - -1
+      ties: 00000000000000000000
+      clipStartOffsets:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      noteOutputs: 00000000
+      pitches:
+      - 1.2599207
+      velocities:
+      - 0.48031497
+      stepsDuration:
+      - 3.1666641
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.875
+      - 0.9375
+      noteOutputs: 000000000000000000000000
+      pitches:
+      - 0.62996083
+      - 1.6817918
+      - 1.8877473
+      velocities:
+      - 0.38582677
+      - 0.17322835
+      - 0.3464567
+      stepsDuration:
+      - 1.5833359
+      - 0.25
+      - 8.166664
+      ties: 000000
+      clipStartOffsets:
+      - 0
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.25
+      - 0.5
+      - 0.75
+      noteOutputs: 00000000000000000000000000000000
+      pitches:
+      - 1.6817918
+      - 1.5874002
+      - 1.6817918
+      - 1.8877473
+      velocities:
+      - 0.48031497
+      - 0.43307087
+      - 0.42519686
+      - 0.511811
+      stepsDuration:
+      - 1.0416641
+      - 1
+      - 1
+      - 0.9166641
+      ties: 00000000
+      clipStartOffsets:
+      - 0
+      - 0
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 0.8408966
+      velocities:
+      - 0.47244096
+      - 0.37007874
+      stepsDuration:
+      - 1.625
+      - -1
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0.5
+      noteOutputs: 00000000
+      pitches:
+      - 1.059463
+      velocities:
+      - 0.56692916
+      stepsDuration:
+      - 8.041664
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0.5
+      noteOutputs: 00000000
+      pitches:
+      - 1.2599207
+      velocities:
+      - 0.62204725
+      stepsDuration:
+      - 0.9166641
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.2599207
+      - 1.1224619
+      velocities:
+      - 0.48818898
+      - 0.4566929
+      stepsDuration:
+      - 2
+      - 1.0833359
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.875
+      - 0.9375
+      noteOutputs: 000000000000000000000000
+      pitches:
+      - 1.1224619
+      - 1.1224619
+      - 1.2599207
+      velocities:
+      - 0.47244096
+      - 0.18110237
+      - 0.3464567
+      stepsDuration:
+      - 2.7916641
+      - 0.25
+      - 8.166664
+      ties: 000000
+      clipStartOffsets:
+      - 0
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.25
+      - 0.5
+      - 0.75
+      noteOutputs: 00000000000000000000000000000000
+      pitches:
+      - 1.1224619
+      - 1.059463
+      - 1.1224619
+      - 1.2599207
+      velocities:
+      - 0.48818898
+      - 0.46456692
+      - 0.51968503
+      - 0.53543305
+      stepsDuration:
+      - 1.1666641
+      - 1
+      - 1
+      - 0.9166641
+      ties: 00000000
+      clipStartOffsets:
+      - 0
+      - 0
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.1224619
+      - 0.62996083
+      velocities:
+      - 0.43307087
+      - 0.31496063
+      stepsDuration:
+      - 1.625
+      - -1
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0.5
+      noteOutputs: 00000000
+      pitches:
+      - 0.94387436
+      velocities:
+      - 0.61417323
+      stepsDuration:
+      - 8.041672
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0.5
+      noteOutputs: 00000000
+      pitches:
+      - 1.1224619
+      velocities:
+      - 0.6929134
+      stepsDuration:
+      - 0.91667175
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.1224619
+      - 1.059463
+      velocities:
+      - 0.511811
+      - 0.4566929
+      stepsDuration:
+      - 2
+      - 1.0833282
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      noteOutputs: 00000000
+      pitches:
+      - 1.059463
+      velocities:
+      - 0.4488189
+      stepsDuration:
+      - 3.1666718
+      ties: 00
+      clipStartOffsets:
+      - 0
+  noteOns:
+  - velocity: 0.43307087
+    noteNumber: 81
+    beatIndex: 0
+    noteOffset: 0
+  - velocity: 0.37795275
+    noteNumber: 80
+    beatIndex: 0
+    noteOffset: 0.25
+  - velocity: 0.511811
+    noteNumber: 81
+    beatIndex: 0
+    noteOffset: 0.5
+  - velocity: 0.5984252
+    noteNumber: 83
+    beatIndex: 0
+    noteOffset: 0.75
+  - velocity: 0.48031497
+    noteNumber: 81
+    beatIndex: 1
+    noteOffset: 0
+  - velocity: 0.33070865
+    noteNumber: 69
+    beatIndex: 1
+    noteOffset: 0.5
+  - velocity: 0.5590551
+    noteNumber: 73
+    beatIndex: 2
+    noteOffset: 0.5
+  - velocity: 0.63779527
+    noteNumber: 76
+    beatIndex: 3
+    noteOffset: 0.5
+  - velocity: 0.48818898
+    noteNumber: 76
+    beatIndex: 4
+    noteOffset: 0
+  - velocity: 0.43307087
+    noteNumber: 74
+    beatIndex: 4
+    noteOffset: 0.5
+  - velocity: 0.4566929
+    noteNumber: 74
+    beatIndex: 5
+    noteOffset: 0
+  - velocity: 0.13385826
+    noteNumber: 74
+    beatIndex: 5
+    noteOffset: 0.875
+  - velocity: 0.32283464
+    noteNumber: 76
+    beatIndex: 5
+    noteOffset: 0.9375
+  - velocity: 0.48031497
+    noteNumber: 74
+    beatIndex: 6
+    noteOffset: 0
+  - velocity: 0.44094488
+    noteNumber: 73
+    beatIndex: 6
+    noteOffset: 0.25
+  - velocity: 0.48031497
+    noteNumber: 74
+    beatIndex: 6
+    noteOffset: 0.5
+  - velocity: 0.53543305
+    noteNumber: 76
+    beatIndex: 6
+    noteOffset: 0.75
+  - velocity: 0.4566929
+    noteNumber: 74
+    beatIndex: 7
+    noteOffset: 0
+  - velocity: 0.37007874
+    noteNumber: 64
+    beatIndex: 7
+    noteOffset: 0.5
+  - velocity: 0.61417323
+    noteNumber: 71
+    beatIndex: 8
+    noteOffset: 0.5
+  - velocity: 0.6771653
+    noteNumber: 74
+    beatIndex: 9
+    noteOffset: 0.5
+  - velocity: 0.44094488
+    noteNumber: 74
+    beatIndex: 10
+    noteOffset: 0
+  - velocity: 0.42519686
+    noteNumber: 73
+    beatIndex: 10
+    noteOffset: 0.5
+  - velocity: 0.48818898
+    noteNumber: 73
+    beatIndex: 11
+    noteOffset: 0
+  - velocity: 0.68503934
+    noteNumber: 81
+    beatIndex: 12
+    noteOffset: 0
+  - velocity: 0.27559054
+    noteNumber: 78
+    beatIndex: 12
+    noteOffset: 0.75
+  - velocity: 0.44094488
+    noteNumber: 76
+    beatIndex: 13
+    noteOffset: 0
+  - velocity: 0.40944883
+    noteNumber: 75
+    beatIndex: 13
+    noteOffset: 0.5
+  - velocity: 0.496063
+    noteNumber: 75
+    beatIndex: 14
+    noteOffset: 0
+  - velocity: 0.503937
+    noteNumber: 75
+    beatIndex: 14
+    noteOffset: 0.5
+  - velocity: 0.6456693
+    noteNumber: 81
+    beatIndex: 15
+    noteOffset: 0
+  - velocity: 0.56692916
+    noteNumber: 78
+    beatIndex: 15
+    noteOffset: 0.75
+  - velocity: 0.40944883
+    noteNumber: 76
+    beatIndex: 16
+    noteOffset: 0
+  - velocity: 0.35433072
+    noteNumber: 75
+    beatIndex: 16
+    noteOffset: 0.5
+  - velocity: 0.48031497
+    noteNumber: 75
+    beatIndex: 17
+    noteOffset: 0
+  - velocity: 0.46456692
+    noteNumber: 75
+    beatIndex: 17
+    noteOffset: 0.5
+  - velocity: 0.56692916
+    noteNumber: 81
+    beatIndex: 18
+    noteOffset: 0
+  - velocity: 0.30708662
+    noteNumber: 78
+    beatIndex: 18
+    noteOffset: 0.75
+  - velocity: 0.496063
+    noteNumber: 80
+    beatIndex: 19
+    noteOffset: 0
+  - velocity: 0.4488189
+    noteNumber: 76
+    beatIndex: 19
+    noteOffset: 0.5
+  - velocity: 0.42519686
+    noteNumber: 73
+    beatIndex: 20
+    noteOffset: 0
+  - velocity: 0.5590551
+    noteNumber: 81
+    beatIndex: 20
+    noteOffset: 0.5
+  - velocity: 0.7480315
+    noteNumber: 80
+    beatIndex: 21
+    noteOffset: 0
+  - velocity: 0.44094488
+    noteNumber: 78
+    beatIndex: 21
+    noteOffset: 0.07291603
+  - velocity: 0.2913386
+    noteNumber: 80
+    beatIndex: 21
+    noteOffset: 0.19791603
+  - velocity: 0.44094488
+    noteNumber: 78
+    beatIndex: 21
+    noteOffset: 0.32291603
+  - velocity: 0.28346458
+    noteNumber: 80
+    beatIndex: 21
+    noteOffset: 0.4375
+  - velocity: 0.44094488
+    noteNumber: 78
+    beatIndex: 21
+    noteOffset: 0.55208397
+  - velocity: 0.30708662
+    noteNumber: 80
+    beatIndex: 21
+    noteOffset: 0.66666603
+  - velocity: 0.44094488
+    noteNumber: 78
+    beatIndex: 21
+    noteOffset: 0.80208397
+  - velocity: 0.15748031
+    noteNumber: 76
+    beatIndex: 21
+    noteOffset: 0.84375
+  - velocity: 0.4015748
+    noteNumber: 78
+    beatIndex: 21
+    noteOffset: 0.91666603
+  - velocity: 0.48031497
+    noteNumber: 76
+    beatIndex: 22
+    noteOffset: 0
+  - velocity: 0.38582677
+    noteNumber: 64
+    beatIndex: 23
+    noteOffset: 0
+  - velocity: 0.17322835
+    noteNumber: 81
+    beatIndex: 23
+    noteOffset: 0.875
+  - velocity: 0.3464567
+    noteNumber: 83
+    beatIndex: 23
+    noteOffset: 0.9375
+  - velocity: 0.48031497
+    noteNumber: 81
+    beatIndex: 24
+    noteOffset: 0
+  - velocity: 0.43307087
+    noteNumber: 80
+    beatIndex: 24
+    noteOffset: 0.25
+  - velocity: 0.42519686
+    noteNumber: 81
+    beatIndex: 24
+    noteOffset: 0.5
+  - velocity: 0.511811
+    noteNumber: 83
+    beatIndex: 24
+    noteOffset: 0.75
+  - velocity: 0.47244096
+    noteNumber: 81
+    beatIndex: 25
+    noteOffset: 0
+  - velocity: 0.37007874
+    noteNumber: 69
+    beatIndex: 25
+    noteOffset: 0.5
+  - velocity: 0.56692916
+    noteNumber: 73
+    beatIndex: 26
+    noteOffset: 0.5
+  - velocity: 0.62204725
+    noteNumber: 76
+    beatIndex: 27
+    noteOffset: 0.5
+  - velocity: 0.48818898
+    noteNumber: 76
+    beatIndex: 28
+    noteOffset: 0
+  - velocity: 0.4566929
+    noteNumber: 74
+    beatIndex: 28
+    noteOffset: 0.5
+  - velocity: 0.47244096
+    noteNumber: 74
+    beatIndex: 29
+    noteOffset: 0
+  - velocity: 0.18110237
+    noteNumber: 74
+    beatIndex: 29
+    noteOffset: 0.875
+  - velocity: 0.3464567
+    noteNumber: 76
+    beatIndex: 29
+    noteOffset: 0.9375
+  - velocity: 0.48818898
+    noteNumber: 74
+    beatIndex: 30
+    noteOffset: 0
+  - velocity: 0.46456692
+    noteNumber: 73
+    beatIndex: 30
+    noteOffset: 0.25
+  - velocity: 0.51968503
+    noteNumber: 74
+    beatIndex: 30
+    noteOffset: 0.5
+  - velocity: 0.53543305
+    noteNumber: 76
+    beatIndex: 30
+    noteOffset: 0.75
+  - velocity: 0.43307087
+    noteNumber: 74
+    beatIndex: 31
+    noteOffset: 0
+  - velocity: 0.31496063
+    noteNumber: 64
+    beatIndex: 31
+    noteOffset: 0.5
+  - velocity: 0.61417323
+    noteNumber: 71
+    beatIndex: 32
+    noteOffset: 0.5
+  - velocity: 0.6929134
+    noteNumber: 74
+    beatIndex: 33
+    noteOffset: 0.5
+  - velocity: 0.511811
+    noteNumber: 74
+    beatIndex: 34
+    noteOffset: 0
+  - velocity: 0.4566929
+    noteNumber: 73
+    beatIndex: 34
+    noteOffset: 0.5
+  - velocity: 0.4488189
+    noteNumber: 73
+    beatIndex: 35
+    noteOffset: 0
+  noteOffs:
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 0
+    noteOffset: 0.26041666
+  - velocity: 0
+    noteNumber: 80
+    beatIndex: 0
+    noteOffset: 0.5
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 0
+    noteOffset: 0.75
+  - velocity: 0
+    noteNumber: 83
+    beatIndex: 0
+    noteOffset: 0.9791667
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 1
+    noteOffset: 0.40625
+  - velocity: 0
+    noteNumber: 69
+    beatIndex: 2
+    noteOffset: 0.29166675
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 3
+    noteOffset: 0.51041675
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 3
+    noteOffset: 0.72916675
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 4
+    noteOffset: 0.5
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 4
+    noteOffset: 0.7708335
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 5
+    noteOffset: 0.6979165
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 5
+    noteOffset: 0.9375
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 6
+    noteOffset: 0
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 6
+    noteOffset: 0.2916665
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 6
+    noteOffset: 0.5
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 6
+    noteOffset: 0.75
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 6
+    noteOffset: 0.9791665
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 7
+    noteOffset: 0.40625
+  - velocity: 0
+    noteNumber: 64
+    beatIndex: 8
+    noteOffset: 0.29166698
+  - velocity: 0
+    noteNumber: 71
+    beatIndex: 9
+    noteOffset: 0.510417
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 9
+    noteOffset: 0.729167
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 10
+    noteOffset: 0.5
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 10
+    noteOffset: 0.770833
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 11
+    noteOffset: 0.791667
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 12
+    noteOffset: 0.760417
+  - velocity: 0
+    noteNumber: 78
+    beatIndex: 12
+    noteOffset: 0.979167
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 13
+    noteOffset: 0.5
+  - velocity: 0
+    noteNumber: 75
+    beatIndex: 13
+    noteOffset: 0.75
+  - velocity: 0
+    noteNumber: 75
+    beatIndex: 14
+    noteOffset: 0.19791698
+  - velocity: 0
+    noteNumber: 75
+    beatIndex: 14
+    noteOffset: 0.697917
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 15
+    noteOffset: 0.760417
+  - velocity: 0
+    noteNumber: 78
+    beatIndex: 15
+    noteOffset: 0.979167
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 16
+    noteOffset: 0.5
+  - velocity: 0
+    noteNumber: 75
+    beatIndex: 16
+    noteOffset: 0.75
+  - velocity: 0
+    noteNumber: 75
+    beatIndex: 17
+    noteOffset: 0.19791603
+  - velocity: 0
+    noteNumber: 75
+    beatIndex: 17
+    noteOffset: 0.69791603
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 18
+    noteOffset: 0.76041603
+  - velocity: 0
+    noteNumber: 78
+    beatIndex: 18
+    noteOffset: 0.97916603
+  - velocity: 0
+    noteNumber: 80
+    beatIndex: 19
+    noteOffset: 0.19791603
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 19
+    noteOffset: 0.69791603
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 20
+    noteOffset: 0.19791603
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 20
+    noteOffset: 0.69791603
+  - velocity: 0
+    noteNumber: 80
+    beatIndex: 21
+    noteOffset: 0.07291603
+  - velocity: 0
+    noteNumber: 78
+    beatIndex: 21
+    noteOffset: 0.1875
+  - velocity: 0
+    noteNumber: 80
+    beatIndex: 21
+    noteOffset: 0.30208397
+  - velocity: 0
+    noteNumber: 78
+    beatIndex: 21
+    noteOffset: 0.41666603
+  - velocity: 0
+    noteNumber: 80
+    beatIndex: 21
+    noteOffset: 0.53125
+  - velocity: 0
+    noteNumber: 78
+    beatIndex: 21
+    noteOffset: 0.63541603
+  - velocity: 0
+    noteNumber: 80
+    beatIndex: 21
+    noteOffset: 0.76041603
+  - velocity: 0
+    noteNumber: 78
+    beatIndex: 21
+    noteOffset: 0.875
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 21
+    noteOffset: 0.91666603
+  - velocity: 0
+    noteNumber: 78
+    beatIndex: 22
+    noteOffset: 0
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 22
+    noteOffset: 0.79166603
+  - velocity: 0
+    noteNumber: 64
+    beatIndex: 23
+    noteOffset: 0.39583397
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 23
+    noteOffset: 0.9375
+  - velocity: 0
+    noteNumber: 83
+    beatIndex: 24
+    noteOffset: 0
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 24
+    noteOffset: 0.26041603
+  - velocity: 0
+    noteNumber: 80
+    beatIndex: 24
+    noteOffset: 0.5
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 24
+    noteOffset: 0.75
+  - velocity: 0
+    noteNumber: 83
+    beatIndex: 24
+    noteOffset: 0.97916603
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 25
+    noteOffset: 0.40625
+  - velocity: 0
+    noteNumber: 69
+    beatIndex: 26
+    noteOffset: 0.29166603
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 27
+    noteOffset: 0.51041603
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 27
+    noteOffset: 0.72916603
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 28
+    noteOffset: 0.5
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 28
+    noteOffset: 0.77083397
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 29
+    noteOffset: 0.69791603
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 29
+    noteOffset: 0.9375
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 30
+    noteOffset: 0
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 30
+    noteOffset: 0.29166603
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 30
+    noteOffset: 0.5
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 30
+    noteOffset: 0.75
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 30
+    noteOffset: 0.97916603
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 31
+    noteOffset: 0.40625
+  - velocity: 0
+    noteNumber: 64
+    beatIndex: 32
+    noteOffset: 0.29166794
+  - velocity: 0
+    noteNumber: 71
+    beatIndex: 33
+    noteOffset: 0.51041794
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 33
+    noteOffset: 0.72916794
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 34
+    noteOffset: 0.5
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 34
+    noteOffset: 0.77083206
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 35
+    noteOffset: 0.79166794
+--- !u!114 &7556136098363121464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296876535076739140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf864493f4fe4c89994cb9a3ef73953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beatInstances: []
+  pendingPostProcess: 0
+  active: 1
+  audioSource: {fileID: 679014106422483012}
+  useInjectedSequence: 1
+  injectableSrc: {fileID: 5922619076773350225}
+  outputMode: 1
+  audioClip: {fileID: 8300000, guid: 438f6264bd016a749bc47a95c0ad062b, type: 3}
+  audioClipVariations:
+  - {fileID: 8300000, guid: 2a92eb0c79a80aa459c9f7e353809b9e, type: 3}
+  - {fileID: 8300000, guid: b6d209751d304d6438923671b7458811, type: 3}
+  - {fileID: 8300000, guid: 74bbb99d634a7194f81bd6d2dbdd1968, type: 3}
+  clipVariationMode: 3
+  clipVariationChanceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  pitchMultiplier: 1
+  pitchOffsetSemitones: 0
+  voiceCount: 12
+  loopBarCount: 1
+  swingMultiplier: 0.75
+  velocityCurve: 2
+  velocityInfluence: 1
+  humaniseOffsetMilliseconds: {x: 2, y: 6}
+  densityTrimInnerLoop:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  densityTrimFullSequence:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  masterClock: {fileID: 7357135572206354715}
+  baseVolume: 0
+  roundRobinAudio: []
+  player: {fileID: 0}
+  robinIndex: 0
+  injectedBeatInstances: []
+  init: 0
+  loopBeatCount: 8
+  seed: 0
+  compositionMixVol: 1
+  useAmpEnvelope: 0
+  envAmpAttack: 0.75
+  envAmpDecay: 0.5
+  envAmpSustain: 0.35
+  envAmpRelease: 1
+  ampEnvToFilter: 0.5
+  harmonicHub: {fileID: 8953313834586896519}
+  pitchLogic: 0
+  arpeggiation: 65
+  rhythmLogic: 2
+  loopSound: 0
+  rhythmSource: {fileID: 6212805438816028719}
+  deletionsFromRhythmSource: 20
+  additionalInbetweensFromRhythmSource: 35
+  additionalArpOnInbetweens: 50
+  baseRhythmicDistortion: 75
+  baseRhythmicDensity: {x: 1, y: 5}
+  beatsUntilStart: 0
+  snareRepeatStack: 0100000002000000
+  repeatStackPowerFunction: 3
+  pitches: []
+--- !u!82 &679014106422483012
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296876535076739140}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -714691619840780858, guid: 96f111c8c312f4480af0906cd9ccb198, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.85
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &1007430410464286348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7700801955631291707}
+  m_Layer: 0
+  m_Name: MusicSystem_MIDI_Demo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7700801955631291707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007430410464286348}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7219696398007073447}
+  - {fileID: 3102172513623090644}
+  - {fileID: 420860388916462064}
+  - {fileID: 8027351159231765618}
+  - {fileID: 3195743181577326210}
+  - {fileID: 179861302727472096}
+  - {fileID: 2532042962497654147}
+  - {fileID: 2164971760145211535}
+  - {fileID: 7200521218328635657}
+  - {fileID: 7014232048518501628}
+  - {fileID: 262627855503150786}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1896903599806850988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8027351159231765618}
+  - component: {fileID: 4519961500774328757}
+  m_Layer: 0
+  m_Name: FXHub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8027351159231765618
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896903599806850988}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7700801955631291707}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4519961500774328757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896903599806850988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55dfff3d50334436ca7c34efd40796d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: 96f111c8c312f4480af0906cd9ccb198, type: 2}
+  delayBpmSync: 1
+  delayTimeSteps: 3
+  delayTimeMS: 250
+  delayDecay: 0.35
+  directSoundSpatialisation: 0
+  masterClock: {fileID: 0}
+  initByCompositionHub: 0
+--- !u!1 &2966685643178671573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2164971760145211535}
+  - component: {fileID: 2283167119978377875}
+  - component: {fileID: 6904807850411998213}
+  m_Layer: 0
+  m_Name: Module_Snare
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2164971760145211535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2966685643178671573}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7700801955631291707}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2283167119978377875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2966685643178671573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0448301c1ed964806a5825fe952263e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beatInstances: []
+  pendingPostProcess: 0
+  active: 1
+  audioSource: {fileID: 6904807850411998213}
+  useInjectedSequence: 0
+  injectableSrc: {fileID: 0}
+  outputMode: 1
+  audioClip: {fileID: 8300000, guid: ac6b9a5160387004e96a5fa1458be00f, type: 3}
+  audioClipVariations: []
+  clipVariationMode: 0
+  clipVariationChanceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  pitchMultiplier: 1
+  pitchOffsetSemitones: 0
+  voiceCount: 8
+  loopBarCount: 1
+  swingMultiplier: 0
+  velocityCurve: 0
+  velocityInfluence: 0.75
+  humaniseOffsetMilliseconds: {x: -12, y: 5}
+  densityTrimInnerLoop:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  densityTrimFullSequence:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  masterClock: {fileID: 7357135572206354715}
+  baseVolume: 0
+  roundRobinAudio: []
+  player: {fileID: 0}
+  robinIndex: 0
+  injectedBeatInstances: []
+  init: 0
+  loopBeatCount: 4
+  seed: 0
+  compositionMixVol: 1
+  useAmpEnvelope: 0
+  envAmpAttack: 0
+  envAmpDecay: 0
+  envAmpSustain: 0
+  envAmpRelease: 0
+  ampEnvToFilter: 0.35
+  beatsUntilStart: 1
+  fillIntensity: 100
+  halfTime: 0
+  snareRepeatStack: 0800000006000000
+  repeatStackPowerFunction: 7
+--- !u!82 &6904807850411998213
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2966685643178671573}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 6086037251856617418, guid: 96f111c8c312f4480af0906cd9ccb198, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &3333702936613388378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7219696398007073447}
+  - component: {fileID: 7357135572206354715}
+  m_Layer: 0
+  m_Name: MasterClock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7219696398007073447
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3333702936613388378}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7700801955631291707}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7357135572206354715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3333702936613388378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: add88df662287438b8c9d27c933fcace, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalLatency: 0.1
+  audioMixerSnapshot: {fileID: -7385357870344312437, guid: 96f111c8c312f4480af0906cd9ccb198, type: 2}
+  FXHub: {fileID: 4519961500774328757}
+  bpm: 188
+  swing: 0.35
+  divisionsPerBeat: 4
+  beatsPerBar: 3
+  barsPerSection: 16
+  repeatsPerSection: 1
+  fillsEveryNthBar: 4
+  velocityCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  forceRegenInstant: 0
+  forceRegenOnLoop: 1
+  beatLength: 0.3191489361702128
+  barLength: 0
+  totalBeatsPerSection: 48
+  beatTimer: 0
+  barCounter: 0
+  sectionCounter: 0
+  stepCounter: 0
+  stepLength: 0
+  stepTimer: 0
+  normalisedPointInSection: 0
+  normalisedPointInSectionAssessing: 0
+  roundRobinAudio: []
+  robinIndex: 0
+  baseSwingOffset: 0
+  pointInBar: 0
+  pointInBarNextBeat: 0
+  fillbeats: 
+  processBeat:
+    m_PersistentCalls:
+      m_Calls: []
+  assessingBeatIndex: 0
+  sectionCommenced: 0
+  sectionCounterRaw: 0
+  prevBeatDspTime: 0
+  nextBeatStart: 0
+  beatAssessOffset: 1
+  verboseDebug: 0
+  ch: {fileID: 0}
+  sampleRate: 0
+--- !u!1 &3798643991773909541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2532042962497654147}
+  - component: {fileID: 4107228120769145142}
+  - component: {fileID: 4760788590976509291}
+  m_Layer: 0
+  m_Name: Module_hat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2532042962497654147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3798643991773909541}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7700801955631291707}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4107228120769145142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3798643991773909541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f2ee6c92c6c245bc865662f92ff5186, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beatInstances: []
+  pendingPostProcess: 0
+  active: 1
+  audioSource: {fileID: 4760788590976509291}
+  useInjectedSequence: 0
+  injectableSrc: {fileID: 0}
+  outputMode: 1
+  audioClip: {fileID: 8300000, guid: c3a26ddf07c0c4932993bc9fa84e5459, type: 3}
+  audioClipVariations: []
+  clipVariationMode: 0
+  clipVariationChanceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  pitchMultiplier: 1
+  pitchOffsetSemitones: 0
+  voiceCount: 12
+  loopBarCount: 1
+  swingMultiplier: 0.5
+  velocityCurve: 0
+  velocityInfluence: 1
+  humaniseOffsetMilliseconds: {x: 0, y: 0}
+  densityTrimInnerLoop:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  densityTrimFullSequence:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  masterClock: {fileID: 7357135572206354715}
+  baseVolume: 0
+  roundRobinAudio: []
+  player: {fileID: 0}
+  robinIndex: 0
+  injectedBeatInstances: []
+  init: 0
+  loopBeatCount: 8
+  seed: 0
+  compositionMixVol: 1
+  useAmpEnvelope: 0
+  envAmpAttack: 0
+  envAmpDecay: 0
+  envAmpSustain: 0
+  envAmpRelease: 0
+  ampEnvToFilter: 0.35
+  rythmLogic: 0
+  fillIntensity: 0
+  baseRhythmicDistortion: 35
+  baseRhythmicDensity: {x: 3, y: 6}
+  repeatStack: 0300000002000000
+  repeatStackPowerFunction: 3
+--- !u!82 &4760788590976509291
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3798643991773909541}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 1959911214380297016, guid: 96f111c8c312f4480af0906cd9ccb198, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &4133427830589301452
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 420860388916462064}
+  - component: {fileID: 7165541161459365976}
+  - component: {fileID: 8953313834586896519}
+  m_Layer: 0
+  m_Name: MIDI_HarmonicHub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &420860388916462064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4133427830589301452}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7700801955631291707}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7165541161459365976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4133427830589301452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33604d080d7665045829454061bf5793, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beatInstances: []
+  pendingPostProcess: 1
+  active: 1
+  sequenceIndex: -1
+  manualRegenOnly: 0
+  masterClock: {fileID: 7357135572206354715}
+  srcMIDI:
+  - midiFileInputObj: {fileID: 102900000, guid: 51b56bdda2e4b304dae21d4828326665, type: 3}
+    channelFilter: -1
+    loopBarCount: 12
+    assessClipFromBeat: 0
+    applyPitch: 1
+    semitoneTranspose: 0
+    init: 1
+  enteredNotes: 67
+  foundNotes: 183
+  dataFoundStartingFromBeatNumber: 0
+  MIDISrcedBeatInstances:
+  - filePath: Assets/AutoMusic/Audio/MIDI_Demo/boch_viola_export_01.mid
+    beatInstances:
+    - noteFractionOffsets:
+      - 0
+      noteOutputs: 00000000
+      pitches:
+      - 1.6817918
+      velocities:
+      - 0.35433072
+      stepsDuration:
+      - 1.5833334
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0.5
+      noteOutputs: 00000000
+      pitches:
+      - 2.1189244
+      velocities:
+      - 0.44094488
+      stepsDuration:
+      - 1.5833335
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 1.2599207
+      velocities:
+      - 0.3464567
+      - 0.33858266
+      stepsDuration:
+      - 1.583333
+      - 1.583333
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 2.1189244
+      velocities:
+      - 0.4488189
+      - 0.4566929
+      stepsDuration:
+      - 1.583333
+      - 1.583333
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.5874002
+      - 1.8877473
+      velocities:
+      - 0.37007874
+      - 0.40944883
+      stepsDuration:
+      - 1.583334
+      - 1.583334
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.5874002
+      - 1.8877473
+      velocities:
+      - 0.37007874
+      - 0.37795275
+      stepsDuration:
+      - 1.583334
+      - 1.583334
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.5874002
+      - 1.8877473
+      velocities:
+      - 0.39370078
+      - 0.44094488
+      stepsDuration:
+      - 1.583334
+      - 1.583334
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.5874002
+      - 1.8877473
+      velocities:
+      - 0.35433072
+      - 0.42519686
+      stepsDuration:
+      - 1.583334
+      - 1.583334
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.5874002
+      - 1.8877473
+      velocities:
+      - 0.32283464
+      - 0.4488189
+      stepsDuration:
+      - 1.5833321
+      - 1.5833321
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.5874002
+      - 1.8877473
+      velocities:
+      - 0.33858266
+      - 0.4488189
+      stepsDuration:
+      - 1.5833321
+      - 1.5833321
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 2.1189244
+      velocities:
+      - 0.32283464
+      - 0.43307087
+      stepsDuration:
+      - 1.5833321
+      - 1.5833321
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 2.1189244
+      velocities:
+      - 0.3464567
+      - 0.46456692
+      stepsDuration:
+      - 1.5833321
+      - 1.5833321
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 2.1189244
+      velocities:
+      - 0.38582677
+      - 0.43307087
+      stepsDuration:
+      - 1.5833321
+      - 1.5833321
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 1.414213
+      velocities:
+      - 0.36220473
+      - 0.37007874
+      stepsDuration:
+      - 1.5833321
+      - 1.5833321
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 1.414213
+      velocities:
+      - 0.4015748
+      - 0.41732284
+      stepsDuration:
+      - 1.5833321
+      - 1.5833321
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.1892068
+      - 1.414213
+      velocities:
+      - 0.35433072
+      - 0.44094488
+      stepsDuration:
+      - 1.5833321
+      - 1.5833321
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 1.414213
+      velocities:
+      - 0.43307087
+      - 0.37795275
+      stepsDuration:
+      - 1.5833359
+      - 1.5833359
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 1.414213
+      velocities:
+      - 0.4488189
+      - 0.39370078
+      stepsDuration:
+      - 1.5833359
+      - 1.5833359
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.1892068
+      - 1.414213
+      velocities:
+      - 0.3464567
+      - 0.43307087
+      stepsDuration:
+      - 1.5833359
+      - 1.5833359
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 0.94387436
+      - 1.5874002
+      velocities:
+      - 0.37795275
+      - 0.47244096
+      stepsDuration:
+      - 1.5833359
+      - 1.5833359
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.059463
+      - 1.2599207
+      velocities:
+      - 0.32283464
+      - 0.42519686
+      stepsDuration:
+      - 1.5833359
+      - 1.5833359
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.1892068
+      - 0.94387436
+      velocities:
+      - 0.40944883
+      - 0.35433072
+      stepsDuration:
+      - 1.5833359
+      - 1.5833359
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.8877473
+      - 1.5874002
+      velocities:
+      - 0.4566929
+      - 0.37007874
+      stepsDuration:
+      - 1.5833359
+      - 1.5833359
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      noteOutputs: 00000000
+      pitches:
+      - 1.2599207
+      velocities:
+      - 0.35433072
+      stepsDuration:
+      - 1.5833359
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets: []
+      noteOutputs: 
+      pitches: []
+      velocities: []
+      stepsDuration: []
+      ties: 
+      clipStartOffsets: []
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 2.1189244
+      velocities:
+      - 0.35433072
+      - 0.43307087
+      stepsDuration:
+      - 1.5833359
+      - 1.5833359
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 1.2599207
+      velocities:
+      - 0.37007874
+      - 0.32283464
+      stepsDuration:
+      - 1.5833359
+      - 1.5833359
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 2.1189244
+      velocities:
+      - 0.4566929
+      - 0.42519686
+      stepsDuration:
+      - 1.5833359
+      - 1.5833359
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.5874002
+      - 1.8877473
+      velocities:
+      - 0.39370078
+      - 0.44094488
+      stepsDuration:
+      - 1.5833359
+      - 1.5833359
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.5874002
+      - 1.8877473
+      velocities:
+      - 0.35433072
+      - 0.41732284
+      stepsDuration:
+      - 1.5833359
+      - 1.5833359
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.5874002
+      - 1.8877473
+      velocities:
+      - 0.37795275
+      - 0.42519686
+      stepsDuration:
+      - 1.5833359
+      - 1.5833359
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.5874002
+      - 1.8877473
+      velocities:
+      - 0.37007874
+      - 0.41732284
+      stepsDuration:
+      - 1.5833359
+      - 1.5833359
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.5874002
+      - 1.8877473
+      velocities:
+      - 0.4015748
+      - 0.42519686
+      stepsDuration:
+      - 1.5833282
+      - 1.5833282
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.5874002
+      - 1.8877473
+      velocities:
+      - 0.33070865
+      - 0.42519686
+      stepsDuration:
+      - 1.5833282
+      - 1.5833282
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 2.1189244
+      velocities:
+      - 0.38582677
+      - 0.41732284
+      stepsDuration:
+      - 1.5833282
+      - 1.5833282
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 2.1189244
+      velocities:
+      - 0.37007874
+      - 0.47244096
+      stepsDuration:
+      - 1.5833282
+      - -1
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+  noteOns:
+  - velocity: 0.35433072
+    noteNumber: 69
+    beatIndex: 0
+    noteOffset: 0
+  - velocity: 0.44094488
+    noteNumber: 73
+    beatIndex: 1
+    noteOffset: 0.5
+  - velocity: 0.3464567
+    noteNumber: 69
+    beatIndex: 2
+    noteOffset: 0
+  - velocity: 0.33858266
+    noteNumber: 64
+    beatIndex: 2
+    noteOffset: 0.5
+  - velocity: 0.4488189
+    noteNumber: 69
+    beatIndex: 3
+    noteOffset: 0
+  - velocity: 0.4566929
+    noteNumber: 73
+    beatIndex: 3
+    noteOffset: 0.5
+  - velocity: 0.37007874
+    noteNumber: 68
+    beatIndex: 4
+    noteOffset: 0
+  - velocity: 0.40944883
+    noteNumber: 71
+    beatIndex: 4
+    noteOffset: 0.5
+  - velocity: 0.37007874
+    noteNumber: 68
+    beatIndex: 5
+    noteOffset: 0
+  - velocity: 0.37795275
+    noteNumber: 71
+    beatIndex: 5
+    noteOffset: 0.5
+  - velocity: 0.39370078
+    noteNumber: 68
+    beatIndex: 6
+    noteOffset: 0
+  - velocity: 0.44094488
+    noteNumber: 71
+    beatIndex: 6
+    noteOffset: 0.5
+  - velocity: 0.35433072
+    noteNumber: 68
+    beatIndex: 7
+    noteOffset: 0
+  - velocity: 0.42519686
+    noteNumber: 71
+    beatIndex: 7
+    noteOffset: 0.5
+  - velocity: 0.32283464
+    noteNumber: 68
+    beatIndex: 8
+    noteOffset: 0
+  - velocity: 0.4488189
+    noteNumber: 71
+    beatIndex: 8
+    noteOffset: 0.5
+  - velocity: 0.33858266
+    noteNumber: 68
+    beatIndex: 9
+    noteOffset: 0
+  - velocity: 0.4488189
+    noteNumber: 71
+    beatIndex: 9
+    noteOffset: 0.5
+  - velocity: 0.32283464
+    noteNumber: 69
+    beatIndex: 10
+    noteOffset: 0
+  - velocity: 0.43307087
+    noteNumber: 73
+    beatIndex: 10
+    noteOffset: 0.5
+  - velocity: 0.3464567
+    noteNumber: 69
+    beatIndex: 11
+    noteOffset: 0
+  - velocity: 0.46456692
+    noteNumber: 73
+    beatIndex: 11
+    noteOffset: 0.5
+  - velocity: 0.38582677
+    noteNumber: 69
+    beatIndex: 12
+    noteOffset: 0
+  - velocity: 0.43307087
+    noteNumber: 73
+    beatIndex: 12
+    noteOffset: 0.5
+  - velocity: 0.36220473
+    noteNumber: 69
+    beatIndex: 13
+    noteOffset: 0
+  - velocity: 0.37007874
+    noteNumber: 66
+    beatIndex: 13
+    noteOffset: 0.5
+  - velocity: 0.4015748
+    noteNumber: 69
+    beatIndex: 14
+    noteOffset: 0
+  - velocity: 0.41732284
+    noteNumber: 66
+    beatIndex: 14
+    noteOffset: 0.5
+  - velocity: 0.35433072
+    noteNumber: 63
+    beatIndex: 15
+    noteOffset: 0
+  - velocity: 0.44094488
+    noteNumber: 66
+    beatIndex: 15
+    noteOffset: 0.5
+  - velocity: 0.43307087
+    noteNumber: 69
+    beatIndex: 16
+    noteOffset: 0
+  - velocity: 0.37795275
+    noteNumber: 66
+    beatIndex: 16
+    noteOffset: 0.5
+  - velocity: 0.4488189
+    noteNumber: 69
+    beatIndex: 17
+    noteOffset: 0
+  - velocity: 0.39370078
+    noteNumber: 66
+    beatIndex: 17
+    noteOffset: 0.5
+  - velocity: 0.3464567
+    noteNumber: 63
+    beatIndex: 18
+    noteOffset: 0
+  - velocity: 0.43307087
+    noteNumber: 66
+    beatIndex: 18
+    noteOffset: 0.5
+  - velocity: 0.37795275
+    noteNumber: 59
+    beatIndex: 19
+    noteOffset: 0
+  - velocity: 0.47244096
+    noteNumber: 68
+    beatIndex: 19
+    noteOffset: 0.5
+  - velocity: 0.32283464
+    noteNumber: 61
+    beatIndex: 20
+    noteOffset: 0
+  - velocity: 0.42519686
+    noteNumber: 64
+    beatIndex: 20
+    noteOffset: 0.5
+  - velocity: 0.40944883
+    noteNumber: 63
+    beatIndex: 21
+    noteOffset: 0
+  - velocity: 0.35433072
+    noteNumber: 59
+    beatIndex: 21
+    noteOffset: 0.5
+  - velocity: 0.4566929
+    noteNumber: 71
+    beatIndex: 22
+    noteOffset: 0
+  - velocity: 0.37007874
+    noteNumber: 68
+    beatIndex: 22
+    noteOffset: 0.5
+  - velocity: 0.35433072
+    noteNumber: 64
+    beatIndex: 23
+    noteOffset: 0
+  - velocity: 0.35433072
+    noteNumber: 69
+    beatIndex: 25
+    noteOffset: 0
+  - velocity: 0.43307087
+    noteNumber: 73
+    beatIndex: 25
+    noteOffset: 0.5
+  - velocity: 0.37007874
+    noteNumber: 69
+    beatIndex: 26
+    noteOffset: 0
+  - velocity: 0.32283464
+    noteNumber: 64
+    beatIndex: 26
+    noteOffset: 0.5
+  - velocity: 0.4566929
+    noteNumber: 69
+    beatIndex: 27
+    noteOffset: 0
+  - velocity: 0.42519686
+    noteNumber: 73
+    beatIndex: 27
+    noteOffset: 0.5
+  - velocity: 0.39370078
+    noteNumber: 68
+    beatIndex: 28
+    noteOffset: 0
+  - velocity: 0.44094488
+    noteNumber: 71
+    beatIndex: 28
+    noteOffset: 0.5
+  - velocity: 0.35433072
+    noteNumber: 68
+    beatIndex: 29
+    noteOffset: 0
+  - velocity: 0.41732284
+    noteNumber: 71
+    beatIndex: 29
+    noteOffset: 0.5
+  - velocity: 0.37795275
+    noteNumber: 68
+    beatIndex: 30
+    noteOffset: 0
+  - velocity: 0.42519686
+    noteNumber: 71
+    beatIndex: 30
+    noteOffset: 0.5
+  - velocity: 0.37007874
+    noteNumber: 68
+    beatIndex: 31
+    noteOffset: 0
+  - velocity: 0.41732284
+    noteNumber: 71
+    beatIndex: 31
+    noteOffset: 0.5
+  - velocity: 0.4015748
+    noteNumber: 68
+    beatIndex: 32
+    noteOffset: 0
+  - velocity: 0.42519686
+    noteNumber: 71
+    beatIndex: 32
+    noteOffset: 0.5
+  - velocity: 0.33070865
+    noteNumber: 68
+    beatIndex: 33
+    noteOffset: 0
+  - velocity: 0.42519686
+    noteNumber: 71
+    beatIndex: 33
+    noteOffset: 0.5
+  - velocity: 0.38582677
+    noteNumber: 69
+    beatIndex: 34
+    noteOffset: 0
+  - velocity: 0.41732284
+    noteNumber: 73
+    beatIndex: 34
+    noteOffset: 0.5
+  - velocity: 0.37007874
+    noteNumber: 69
+    beatIndex: 35
+    noteOffset: 0
+  - velocity: 0.47244096
+    noteNumber: 73
+    beatIndex: 35
+    noteOffset: 0.5
+  noteOffs:
+  - velocity: 0
+    noteNumber: 69
+    beatIndex: 0
+    noteOffset: 0.39583334
+  - velocity: 0
+    noteNumber: 69
+    beatIndex: 1
+    noteOffset: 0.39583337
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 1
+    noteOffset: 0.8958334
+  - velocity: 0
+    noteNumber: 69
+    beatIndex: 2
+    noteOffset: 0.39583325
+  - velocity: 0
+    noteNumber: 64
+    beatIndex: 2
+    noteOffset: 0.89583325
+  - velocity: 0
+    noteNumber: 69
+    beatIndex: 3
+    noteOffset: 0.39583325
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 3
+    noteOffset: 0.89583325
+  - velocity: 0
+    noteNumber: 68
+    beatIndex: 4
+    noteOffset: 0.3958335
+  - velocity: 0
+    noteNumber: 71
+    beatIndex: 4
+    noteOffset: 0.8958335
+  - velocity: 0
+    noteNumber: 68
+    beatIndex: 5
+    noteOffset: 0.3958335
+  - velocity: 0
+    noteNumber: 71
+    beatIndex: 5
+    noteOffset: 0.8958335
+  - velocity: 0
+    noteNumber: 68
+    beatIndex: 6
+    noteOffset: 0.3958335
+  - velocity: 0
+    noteNumber: 71
+    beatIndex: 6
+    noteOffset: 0.8958335
+  - velocity: 0
+    noteNumber: 68
+    beatIndex: 7
+    noteOffset: 0.3958335
+  - velocity: 0
+    noteNumber: 71
+    beatIndex: 7
+    noteOffset: 0.8958335
+  - velocity: 0
+    noteNumber: 68
+    beatIndex: 8
+    noteOffset: 0.39583302
+  - velocity: 0
+    noteNumber: 71
+    beatIndex: 8
+    noteOffset: 0.895833
+  - velocity: 0
+    noteNumber: 68
+    beatIndex: 9
+    noteOffset: 0.39583302
+  - velocity: 0
+    noteNumber: 71
+    beatIndex: 9
+    noteOffset: 0.895833
+  - velocity: 0
+    noteNumber: 69
+    beatIndex: 10
+    noteOffset: 0.39583302
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 10
+    noteOffset: 0.895833
+  - velocity: 0
+    noteNumber: 69
+    beatIndex: 11
+    noteOffset: 0.39583302
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 11
+    noteOffset: 0.895833
+  - velocity: 0
+    noteNumber: 69
+    beatIndex: 12
+    noteOffset: 0.39583302
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 12
+    noteOffset: 0.895833
+  - velocity: 0
+    noteNumber: 69
+    beatIndex: 13
+    noteOffset: 0.39583302
+  - velocity: 0
+    noteNumber: 66
+    beatIndex: 13
+    noteOffset: 0.895833
+  - velocity: 0
+    noteNumber: 69
+    beatIndex: 14
+    noteOffset: 0.39583302
+  - velocity: 0
+    noteNumber: 66
+    beatIndex: 14
+    noteOffset: 0.895833
+  - velocity: 0
+    noteNumber: 63
+    beatIndex: 15
+    noteOffset: 0.39583302
+  - velocity: 0
+    noteNumber: 66
+    beatIndex: 15
+    noteOffset: 0.895833
+  - velocity: 0
+    noteNumber: 69
+    beatIndex: 16
+    noteOffset: 0.39583397
+  - velocity: 0
+    noteNumber: 66
+    beatIndex: 16
+    noteOffset: 0.89583397
+  - velocity: 0
+    noteNumber: 69
+    beatIndex: 17
+    noteOffset: 0.39583397
+  - velocity: 0
+    noteNumber: 66
+    beatIndex: 17
+    noteOffset: 0.89583397
+  - velocity: 0
+    noteNumber: 63
+    beatIndex: 18
+    noteOffset: 0.39583397
+  - velocity: 0
+    noteNumber: 66
+    beatIndex: 18
+    noteOffset: 0.89583397
+  - velocity: 0
+    noteNumber: 59
+    beatIndex: 19
+    noteOffset: 0.39583397
+  - velocity: 0
+    noteNumber: 68
+    beatIndex: 19
+    noteOffset: 0.89583397
+  - velocity: 0
+    noteNumber: 61
+    beatIndex: 20
+    noteOffset: 0.39583397
+  - velocity: 0
+    noteNumber: 64
+    beatIndex: 20
+    noteOffset: 0.89583397
+  - velocity: 0
+    noteNumber: 63
+    beatIndex: 21
+    noteOffset: 0.39583397
+  - velocity: 0
+    noteNumber: 59
+    beatIndex: 21
+    noteOffset: 0.89583397
+  - velocity: 0
+    noteNumber: 71
+    beatIndex: 22
+    noteOffset: 0.39583397
+  - velocity: 0
+    noteNumber: 68
+    beatIndex: 22
+    noteOffset: 0.89583397
+  - velocity: 0
+    noteNumber: 64
+    beatIndex: 23
+    noteOffset: 0.39583397
+  - velocity: 0
+    noteNumber: 69
+    beatIndex: 25
+    noteOffset: 0.39583397
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 25
+    noteOffset: 0.89583397
+  - velocity: 0
+    noteNumber: 69
+    beatIndex: 26
+    noteOffset: 0.39583397
+  - velocity: 0
+    noteNumber: 64
+    beatIndex: 26
+    noteOffset: 0.89583397
+  - velocity: 0
+    noteNumber: 69
+    beatIndex: 27
+    noteOffset: 0.39583397
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 27
+    noteOffset: 0.89583397
+  - velocity: 0
+    noteNumber: 68
+    beatIndex: 28
+    noteOffset: 0.39583397
+  - velocity: 0
+    noteNumber: 71
+    beatIndex: 28
+    noteOffset: 0.89583397
+  - velocity: 0
+    noteNumber: 68
+    beatIndex: 29
+    noteOffset: 0.39583397
+  - velocity: 0
+    noteNumber: 71
+    beatIndex: 29
+    noteOffset: 0.89583397
+  - velocity: 0
+    noteNumber: 68
+    beatIndex: 30
+    noteOffset: 0.39583397
+  - velocity: 0
+    noteNumber: 71
+    beatIndex: 30
+    noteOffset: 0.89583397
+  - velocity: 0
+    noteNumber: 68
+    beatIndex: 31
+    noteOffset: 0.39583397
+  - velocity: 0
+    noteNumber: 71
+    beatIndex: 31
+    noteOffset: 0.89583397
+  - velocity: 0
+    noteNumber: 68
+    beatIndex: 32
+    noteOffset: 0.39583206
+  - velocity: 0
+    noteNumber: 71
+    beatIndex: 32
+    noteOffset: 0.89583206
+  - velocity: 0
+    noteNumber: 68
+    beatIndex: 33
+    noteOffset: 0.39583206
+  - velocity: 0
+    noteNumber: 71
+    beatIndex: 33
+    noteOffset: 0.89583206
+  - velocity: 0
+    noteNumber: 69
+    beatIndex: 34
+    noteOffset: 0.39583206
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 34
+    noteOffset: 0.89583206
+  - velocity: 0
+    noteNumber: 69
+    beatIndex: 35
+    noteOffset: 0.39583206
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 35
+    noteOffset: 0.89583206
+--- !u!114 &8953313834586896519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4133427830589301452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dcf5e36adbb14bcb8c5a1c9dfef6775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useInjectedSequence: 1
+  injectableSrc: {fileID: 7165541161459365976}
+  scale: 2
+  transpose: 0
+  startOnRootChord: 1
+  chordCount: {x: 3, y: 6}
+  barsInSequence: 12
+  proportionChordsBeatOne: 1
+  extensionCount: {x: 2, y: 5}
+  homogenousExtensions: 1
+  chordExtensionStacks:
+  - chordExtensions: 030000000500000007000000
+  - chordExtensions: 0300000005000000
+  masterClock: {fileID: 0}
+  init: 0
+  pitches: []
+  chordSequence: []
+  chordSequencePerStepRef: []
+  extensionStackInUse:
+    chordExtensions: 
+  runScaleChecks: 0
+--- !u!1 &4353157958799461252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7014232048518501628}
+  - component: {fileID: 7508081846031159809}
+  - component: {fileID: 919497772879511498}
+  - component: {fileID: 3814849828940653104}
+  m_Layer: 0
+  m_Name: MIDI_Module_Lead
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7014232048518501628
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4353157958799461252}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7700801955631291707}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7508081846031159809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4353157958799461252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33604d080d7665045829454061bf5793, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beatInstances: []
+  pendingPostProcess: 1
+  active: 1
+  sequenceIndex: -1
+  manualRegenOnly: 0
+  masterClock: {fileID: 7357135572206354715}
+  srcMIDI:
+  - midiFileInputObj: {fileID: 102900000, guid: b891fabfc0099be4f90dc98d1f490b66, type: 3}
+    channelFilter: -1
+    loopBarCount: 12
+    assessClipFromBeat: 0
+    applyPitch: 1
+    semitoneTranspose: -12
+    init: 1
+  enteredNotes: 80
+  foundNotes: 220
+  dataFoundStartingFromBeatNumber: 0
+  MIDISrcedBeatInstances:
+  - filePath: Assets/AutoMusic/Audio/MIDI_Demo/boch_violin_export_02.mid
+    beatInstances:
+    - noteFractionOffsets:
+      - 0
+      - 0.25
+      - 0.5
+      - 0.75
+      noteOutputs: 00000000000000000000000000000000
+      pitches:
+      - 1.6817918
+      - 1.5874002
+      - 1.6817918
+      - 1.8877473
+      velocities:
+      - 0.43307087
+      - 0.37795275
+      - 0.511811
+      - 0.5984252
+      stepsDuration:
+      - 1.0416666
+      - 1
+      - 1
+      - 0.91666675
+      ties: 00000000
+      clipStartOffsets:
+      - 0
+      - 0
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 0.8408966
+      velocities:
+      - 0.48031497
+      - 0.33070865
+      stepsDuration:
+      - 1.625
+      - -1
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0.5
+      noteOutputs: 00000000
+      pitches:
+      - 1.059463
+      velocities:
+      - 0.5590551
+      stepsDuration:
+      - 8.041667
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0.5
+      noteOutputs: 00000000
+      pitches:
+      - 1.2599207
+      velocities:
+      - 0.63779527
+      stepsDuration:
+      - 0.916667
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.2599207
+      - 1.1224619
+      velocities:
+      - 0.48818898
+      - 0.43307087
+      stepsDuration:
+      - 2
+      - 1.083334
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.875
+      - 0.9375
+      noteOutputs: 000000000000000000000000
+      pitches:
+      - 1.1224619
+      - 1.1224619
+      - 1.2599207
+      velocities:
+      - 0.4566929
+      - 0.13385826
+      - 0.32283464
+      stepsDuration:
+      - 2.791666
+      - 0.25
+      - 8.166666
+      ties: 000000
+      clipStartOffsets:
+      - 0
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.25
+      - 0.5
+      - 0.75
+      noteOutputs: 00000000000000000000000000000000
+      pitches:
+      - 1.1224619
+      - 1.059463
+      - 1.1224619
+      - 1.2599207
+      velocities:
+      - 0.48031497
+      - 0.44094488
+      - 0.48031497
+      - 0.53543305
+      stepsDuration:
+      - 1.166666
+      - 1
+      - 1
+      - 0.91666603
+      ties: 00000000
+      clipStartOffsets:
+      - 0
+      - 0
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.1224619
+      - 0.62996083
+      velocities:
+      - 0.4566929
+      - 0.37007874
+      stepsDuration:
+      - 1.625
+      - -1
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0.5
+      noteOutputs: 00000000
+      pitches:
+      - 0.94387436
+      velocities:
+      - 0.61417323
+      stepsDuration:
+      - 8.041668
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0.5
+      noteOutputs: 00000000
+      pitches:
+      - 1.1224619
+      velocities:
+      - 0.6771653
+      stepsDuration:
+      - 0.91666794
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.1224619
+      - 1.059463
+      velocities:
+      - 0.44094488
+      - 0.42519686
+      stepsDuration:
+      - 2
+      - 1.0833321
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      noteOutputs: 00000000
+      pitches:
+      - 1.059463
+      velocities:
+      - 0.48818898
+      stepsDuration:
+      - 3.166668
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.75
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 1.414213
+      velocities:
+      - 0.68503934
+      - 0.27559054
+      stepsDuration:
+      - 3.041668
+      - 0.91666794
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.2599207
+      - 1.1892068
+      velocities:
+      - 0.44094488
+      - 0.40944883
+      stepsDuration:
+      - 2
+      - 1
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.1892068
+      - 1.1892068
+      velocities:
+      - 0.496063
+      - 0.503937
+      stepsDuration:
+      - 0.79166794
+      - 0.79166794
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.75
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 1.414213
+      velocities:
+      - 0.6456693
+      - 0.56692916
+      stepsDuration:
+      - 3.041668
+      - 0.91666794
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.2599207
+      - 1.1892068
+      velocities:
+      - 0.40944883
+      - 0.35433072
+      stepsDuration:
+      - 2
+      - 1
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.1892068
+      - 1.1892068
+      velocities:
+      - 0.48031497
+      - 0.46456692
+      stepsDuration:
+      - 0.7916641
+      - 0.7916641
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.75
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 1.414213
+      velocities:
+      - 0.56692916
+      - 0.30708662
+      stepsDuration:
+      - 3.0416641
+      - 0.9166641
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.5874002
+      - 1.2599207
+      velocities:
+      - 0.496063
+      - 0.4488189
+      stepsDuration:
+      - 0.7916641
+      - 0.7916641
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.059463
+      - 1.6817918
+      velocities:
+      - 0.42519686
+      - 0.5590551
+      stepsDuration:
+      - 0.7916641
+      - 0.7916641
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.07291603
+      - 0.19791603
+      - 0.32291603
+      - 0.4375
+      - 0.55208397
+      - 0.66666603
+      - 0.80208397
+      - 0.84375
+      - 0.91666603
+      noteOutputs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+      pitches:
+      - 1.5874002
+      - 1.414213
+      - 1.5874002
+      - 1.414213
+      - 1.5874002
+      - 1.414213
+      - 1.5874002
+      - 1.414213
+      - 1.2599207
+      - 1.414213
+      velocities:
+      - 0.7480315
+      - 0.44094488
+      - 0.2913386
+      - 0.44094488
+      - 0.28346458
+      - 0.44094488
+      - 0.30708662
+      - 0.44094488
+      - 0.15748031
+      - 0.4015748
+      stepsDuration:
+      - 0.29166412
+      - 0.45833588
+      - 0.41667175
+      - 0.375
+      - 0.375
+      - 0.33332825
+      - 0.375
+      - 0.29166412
+      - 0.29166412
+      - -1
+      ties: 00000000000000000000
+      clipStartOffsets:
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      noteOutputs: 00000000
+      pitches:
+      - 1.2599207
+      velocities:
+      - 0.48031497
+      stepsDuration:
+      - 3.1666641
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.875
+      - 0.9375
+      noteOutputs: 000000000000000000000000
+      pitches:
+      - 0.62996083
+      - 1.6817918
+      - 1.8877473
+      velocities:
+      - 0.38582677
+      - 0.17322835
+      - 0.3464567
+      stepsDuration:
+      - 1.5833359
+      - 0.25
+      - 8.166664
+      ties: 000000
+      clipStartOffsets:
+      - 0
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.25
+      - 0.5
+      - 0.75
+      noteOutputs: 00000000000000000000000000000000
+      pitches:
+      - 1.6817918
+      - 1.5874002
+      - 1.6817918
+      - 1.8877473
+      velocities:
+      - 0.48031497
+      - 0.43307087
+      - 0.42519686
+      - 0.511811
+      stepsDuration:
+      - 1.0416641
+      - 1
+      - 1
+      - 0.9166641
+      ties: 00000000
+      clipStartOffsets:
+      - 0
+      - 0
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.6817918
+      - 0.8408966
+      velocities:
+      - 0.47244096
+      - 0.37007874
+      stepsDuration:
+      - 1.625
+      - -1
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0.5
+      noteOutputs: 00000000
+      pitches:
+      - 1.059463
+      velocities:
+      - 0.56692916
+      stepsDuration:
+      - 8.041664
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0.5
+      noteOutputs: 00000000
+      pitches:
+      - 1.2599207
+      velocities:
+      - 0.62204725
+      stepsDuration:
+      - 0.9166641
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.2599207
+      - 1.1224619
+      velocities:
+      - 0.48818898
+      - 0.4566929
+      stepsDuration:
+      - 2
+      - 1.0833359
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.875
+      - 0.9375
+      noteOutputs: 000000000000000000000000
+      pitches:
+      - 1.1224619
+      - 1.1224619
+      - 1.2599207
+      velocities:
+      - 0.47244096
+      - 0.18110237
+      - 0.3464567
+      stepsDuration:
+      - 2.7916641
+      - 0.25
+      - 8.166664
+      ties: 000000
+      clipStartOffsets:
+      - 0
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.25
+      - 0.5
+      - 0.75
+      noteOutputs: 00000000000000000000000000000000
+      pitches:
+      - 1.1224619
+      - 1.059463
+      - 1.1224619
+      - 1.2599207
+      velocities:
+      - 0.48818898
+      - 0.46456692
+      - 0.51968503
+      - 0.53543305
+      stepsDuration:
+      - 1.1666641
+      - 1
+      - 1
+      - 0.9166641
+      ties: 00000000
+      clipStartOffsets:
+      - 0
+      - 0
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.1224619
+      - 0.62996083
+      velocities:
+      - 0.43307087
+      - 0.31496063
+      stepsDuration:
+      - 1.625
+      - -1
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0.5
+      noteOutputs: 00000000
+      pitches:
+      - 0.94387436
+      velocities:
+      - 0.61417323
+      stepsDuration:
+      - 8.041672
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0.5
+      noteOutputs: 00000000
+      pitches:
+      - 1.1224619
+      velocities:
+      - 0.6929134
+      stepsDuration:
+      - 0.91667175
+      ties: 00
+      clipStartOffsets:
+      - 0
+    - noteFractionOffsets:
+      - 0
+      - 0.5
+      noteOutputs: 0000000000000000
+      pitches:
+      - 1.1224619
+      - 1.059463
+      velocities:
+      - 0.511811
+      - 0.4566929
+      stepsDuration:
+      - 2
+      - 1.0833282
+      ties: 0000
+      clipStartOffsets:
+      - 0
+      - 0
+    - noteFractionOffsets:
+      - 0
+      noteOutputs: 00000000
+      pitches:
+      - 1.059463
+      velocities:
+      - 0.4488189
+      stepsDuration:
+      - 3.1666718
+      ties: 00
+      clipStartOffsets:
+      - 0
+  noteOns:
+  - velocity: 0.43307087
+    noteNumber: 81
+    beatIndex: 0
+    noteOffset: 0
+  - velocity: 0.37795275
+    noteNumber: 80
+    beatIndex: 0
+    noteOffset: 0.25
+  - velocity: 0.511811
+    noteNumber: 81
+    beatIndex: 0
+    noteOffset: 0.5
+  - velocity: 0.5984252
+    noteNumber: 83
+    beatIndex: 0
+    noteOffset: 0.75
+  - velocity: 0.48031497
+    noteNumber: 81
+    beatIndex: 1
+    noteOffset: 0
+  - velocity: 0.33070865
+    noteNumber: 69
+    beatIndex: 1
+    noteOffset: 0.5
+  - velocity: 0.5590551
+    noteNumber: 73
+    beatIndex: 2
+    noteOffset: 0.5
+  - velocity: 0.63779527
+    noteNumber: 76
+    beatIndex: 3
+    noteOffset: 0.5
+  - velocity: 0.48818898
+    noteNumber: 76
+    beatIndex: 4
+    noteOffset: 0
+  - velocity: 0.43307087
+    noteNumber: 74
+    beatIndex: 4
+    noteOffset: 0.5
+  - velocity: 0.4566929
+    noteNumber: 74
+    beatIndex: 5
+    noteOffset: 0
+  - velocity: 0.13385826
+    noteNumber: 74
+    beatIndex: 5
+    noteOffset: 0.875
+  - velocity: 0.32283464
+    noteNumber: 76
+    beatIndex: 5
+    noteOffset: 0.9375
+  - velocity: 0.48031497
+    noteNumber: 74
+    beatIndex: 6
+    noteOffset: 0
+  - velocity: 0.44094488
+    noteNumber: 73
+    beatIndex: 6
+    noteOffset: 0.25
+  - velocity: 0.48031497
+    noteNumber: 74
+    beatIndex: 6
+    noteOffset: 0.5
+  - velocity: 0.53543305
+    noteNumber: 76
+    beatIndex: 6
+    noteOffset: 0.75
+  - velocity: 0.4566929
+    noteNumber: 74
+    beatIndex: 7
+    noteOffset: 0
+  - velocity: 0.37007874
+    noteNumber: 64
+    beatIndex: 7
+    noteOffset: 0.5
+  - velocity: 0.61417323
+    noteNumber: 71
+    beatIndex: 8
+    noteOffset: 0.5
+  - velocity: 0.6771653
+    noteNumber: 74
+    beatIndex: 9
+    noteOffset: 0.5
+  - velocity: 0.44094488
+    noteNumber: 74
+    beatIndex: 10
+    noteOffset: 0
+  - velocity: 0.42519686
+    noteNumber: 73
+    beatIndex: 10
+    noteOffset: 0.5
+  - velocity: 0.48818898
+    noteNumber: 73
+    beatIndex: 11
+    noteOffset: 0
+  - velocity: 0.68503934
+    noteNumber: 81
+    beatIndex: 12
+    noteOffset: 0
+  - velocity: 0.27559054
+    noteNumber: 78
+    beatIndex: 12
+    noteOffset: 0.75
+  - velocity: 0.44094488
+    noteNumber: 76
+    beatIndex: 13
+    noteOffset: 0
+  - velocity: 0.40944883
+    noteNumber: 75
+    beatIndex: 13
+    noteOffset: 0.5
+  - velocity: 0.496063
+    noteNumber: 75
+    beatIndex: 14
+    noteOffset: 0
+  - velocity: 0.503937
+    noteNumber: 75
+    beatIndex: 14
+    noteOffset: 0.5
+  - velocity: 0.6456693
+    noteNumber: 81
+    beatIndex: 15
+    noteOffset: 0
+  - velocity: 0.56692916
+    noteNumber: 78
+    beatIndex: 15
+    noteOffset: 0.75
+  - velocity: 0.40944883
+    noteNumber: 76
+    beatIndex: 16
+    noteOffset: 0
+  - velocity: 0.35433072
+    noteNumber: 75
+    beatIndex: 16
+    noteOffset: 0.5
+  - velocity: 0.48031497
+    noteNumber: 75
+    beatIndex: 17
+    noteOffset: 0
+  - velocity: 0.46456692
+    noteNumber: 75
+    beatIndex: 17
+    noteOffset: 0.5
+  - velocity: 0.56692916
+    noteNumber: 81
+    beatIndex: 18
+    noteOffset: 0
+  - velocity: 0.30708662
+    noteNumber: 78
+    beatIndex: 18
+    noteOffset: 0.75
+  - velocity: 0.496063
+    noteNumber: 80
+    beatIndex: 19
+    noteOffset: 0
+  - velocity: 0.4488189
+    noteNumber: 76
+    beatIndex: 19
+    noteOffset: 0.5
+  - velocity: 0.42519686
+    noteNumber: 73
+    beatIndex: 20
+    noteOffset: 0
+  - velocity: 0.5590551
+    noteNumber: 81
+    beatIndex: 20
+    noteOffset: 0.5
+  - velocity: 0.7480315
+    noteNumber: 80
+    beatIndex: 21
+    noteOffset: 0
+  - velocity: 0.44094488
+    noteNumber: 78
+    beatIndex: 21
+    noteOffset: 0.07291603
+  - velocity: 0.2913386
+    noteNumber: 80
+    beatIndex: 21
+    noteOffset: 0.19791603
+  - velocity: 0.44094488
+    noteNumber: 78
+    beatIndex: 21
+    noteOffset: 0.32291603
+  - velocity: 0.28346458
+    noteNumber: 80
+    beatIndex: 21
+    noteOffset: 0.4375
+  - velocity: 0.44094488
+    noteNumber: 78
+    beatIndex: 21
+    noteOffset: 0.55208397
+  - velocity: 0.30708662
+    noteNumber: 80
+    beatIndex: 21
+    noteOffset: 0.66666603
+  - velocity: 0.44094488
+    noteNumber: 78
+    beatIndex: 21
+    noteOffset: 0.80208397
+  - velocity: 0.15748031
+    noteNumber: 76
+    beatIndex: 21
+    noteOffset: 0.84375
+  - velocity: 0.4015748
+    noteNumber: 78
+    beatIndex: 21
+    noteOffset: 0.91666603
+  - velocity: 0.48031497
+    noteNumber: 76
+    beatIndex: 22
+    noteOffset: 0
+  - velocity: 0.38582677
+    noteNumber: 64
+    beatIndex: 23
+    noteOffset: 0
+  - velocity: 0.17322835
+    noteNumber: 81
+    beatIndex: 23
+    noteOffset: 0.875
+  - velocity: 0.3464567
+    noteNumber: 83
+    beatIndex: 23
+    noteOffset: 0.9375
+  - velocity: 0.48031497
+    noteNumber: 81
+    beatIndex: 24
+    noteOffset: 0
+  - velocity: 0.43307087
+    noteNumber: 80
+    beatIndex: 24
+    noteOffset: 0.25
+  - velocity: 0.42519686
+    noteNumber: 81
+    beatIndex: 24
+    noteOffset: 0.5
+  - velocity: 0.511811
+    noteNumber: 83
+    beatIndex: 24
+    noteOffset: 0.75
+  - velocity: 0.47244096
+    noteNumber: 81
+    beatIndex: 25
+    noteOffset: 0
+  - velocity: 0.37007874
+    noteNumber: 69
+    beatIndex: 25
+    noteOffset: 0.5
+  - velocity: 0.56692916
+    noteNumber: 73
+    beatIndex: 26
+    noteOffset: 0.5
+  - velocity: 0.62204725
+    noteNumber: 76
+    beatIndex: 27
+    noteOffset: 0.5
+  - velocity: 0.48818898
+    noteNumber: 76
+    beatIndex: 28
+    noteOffset: 0
+  - velocity: 0.4566929
+    noteNumber: 74
+    beatIndex: 28
+    noteOffset: 0.5
+  - velocity: 0.47244096
+    noteNumber: 74
+    beatIndex: 29
+    noteOffset: 0
+  - velocity: 0.18110237
+    noteNumber: 74
+    beatIndex: 29
+    noteOffset: 0.875
+  - velocity: 0.3464567
+    noteNumber: 76
+    beatIndex: 29
+    noteOffset: 0.9375
+  - velocity: 0.48818898
+    noteNumber: 74
+    beatIndex: 30
+    noteOffset: 0
+  - velocity: 0.46456692
+    noteNumber: 73
+    beatIndex: 30
+    noteOffset: 0.25
+  - velocity: 0.51968503
+    noteNumber: 74
+    beatIndex: 30
+    noteOffset: 0.5
+  - velocity: 0.53543305
+    noteNumber: 76
+    beatIndex: 30
+    noteOffset: 0.75
+  - velocity: 0.43307087
+    noteNumber: 74
+    beatIndex: 31
+    noteOffset: 0
+  - velocity: 0.31496063
+    noteNumber: 64
+    beatIndex: 31
+    noteOffset: 0.5
+  - velocity: 0.61417323
+    noteNumber: 71
+    beatIndex: 32
+    noteOffset: 0.5
+  - velocity: 0.6929134
+    noteNumber: 74
+    beatIndex: 33
+    noteOffset: 0.5
+  - velocity: 0.511811
+    noteNumber: 74
+    beatIndex: 34
+    noteOffset: 0
+  - velocity: 0.4566929
+    noteNumber: 73
+    beatIndex: 34
+    noteOffset: 0.5
+  - velocity: 0.4488189
+    noteNumber: 73
+    beatIndex: 35
+    noteOffset: 0
+  noteOffs:
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 0
+    noteOffset: 0.26041666
+  - velocity: 0
+    noteNumber: 80
+    beatIndex: 0
+    noteOffset: 0.5
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 0
+    noteOffset: 0.75
+  - velocity: 0
+    noteNumber: 83
+    beatIndex: 0
+    noteOffset: 0.9791667
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 1
+    noteOffset: 0.40625
+  - velocity: 0
+    noteNumber: 69
+    beatIndex: 2
+    noteOffset: 0.29166675
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 3
+    noteOffset: 0.51041675
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 3
+    noteOffset: 0.72916675
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 4
+    noteOffset: 0.5
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 4
+    noteOffset: 0.7708335
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 5
+    noteOffset: 0.6979165
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 5
+    noteOffset: 0.9375
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 6
+    noteOffset: 0
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 6
+    noteOffset: 0.2916665
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 6
+    noteOffset: 0.5
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 6
+    noteOffset: 0.75
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 6
+    noteOffset: 0.9791665
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 7
+    noteOffset: 0.40625
+  - velocity: 0
+    noteNumber: 64
+    beatIndex: 8
+    noteOffset: 0.29166698
+  - velocity: 0
+    noteNumber: 71
+    beatIndex: 9
+    noteOffset: 0.510417
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 9
+    noteOffset: 0.729167
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 10
+    noteOffset: 0.5
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 10
+    noteOffset: 0.770833
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 11
+    noteOffset: 0.791667
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 12
+    noteOffset: 0.760417
+  - velocity: 0
+    noteNumber: 78
+    beatIndex: 12
+    noteOffset: 0.979167
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 13
+    noteOffset: 0.5
+  - velocity: 0
+    noteNumber: 75
+    beatIndex: 13
+    noteOffset: 0.75
+  - velocity: 0
+    noteNumber: 75
+    beatIndex: 14
+    noteOffset: 0.19791698
+  - velocity: 0
+    noteNumber: 75
+    beatIndex: 14
+    noteOffset: 0.697917
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 15
+    noteOffset: 0.760417
+  - velocity: 0
+    noteNumber: 78
+    beatIndex: 15
+    noteOffset: 0.979167
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 16
+    noteOffset: 0.5
+  - velocity: 0
+    noteNumber: 75
+    beatIndex: 16
+    noteOffset: 0.75
+  - velocity: 0
+    noteNumber: 75
+    beatIndex: 17
+    noteOffset: 0.19791603
+  - velocity: 0
+    noteNumber: 75
+    beatIndex: 17
+    noteOffset: 0.69791603
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 18
+    noteOffset: 0.76041603
+  - velocity: 0
+    noteNumber: 78
+    beatIndex: 18
+    noteOffset: 0.97916603
+  - velocity: 0
+    noteNumber: 80
+    beatIndex: 19
+    noteOffset: 0.19791603
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 19
+    noteOffset: 0.69791603
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 20
+    noteOffset: 0.19791603
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 20
+    noteOffset: 0.69791603
+  - velocity: 0
+    noteNumber: 80
+    beatIndex: 21
+    noteOffset: 0.07291603
+  - velocity: 0
+    noteNumber: 78
+    beatIndex: 21
+    noteOffset: 0.1875
+  - velocity: 0
+    noteNumber: 80
+    beatIndex: 21
+    noteOffset: 0.30208397
+  - velocity: 0
+    noteNumber: 78
+    beatIndex: 21
+    noteOffset: 0.41666603
+  - velocity: 0
+    noteNumber: 80
+    beatIndex: 21
+    noteOffset: 0.53125
+  - velocity: 0
+    noteNumber: 78
+    beatIndex: 21
+    noteOffset: 0.63541603
+  - velocity: 0
+    noteNumber: 80
+    beatIndex: 21
+    noteOffset: 0.76041603
+  - velocity: 0
+    noteNumber: 78
+    beatIndex: 21
+    noteOffset: 0.875
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 21
+    noteOffset: 0.91666603
+  - velocity: 0
+    noteNumber: 78
+    beatIndex: 22
+    noteOffset: 0
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 22
+    noteOffset: 0.79166603
+  - velocity: 0
+    noteNumber: 64
+    beatIndex: 23
+    noteOffset: 0.39583397
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 23
+    noteOffset: 0.9375
+  - velocity: 0
+    noteNumber: 83
+    beatIndex: 24
+    noteOffset: 0
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 24
+    noteOffset: 0.26041603
+  - velocity: 0
+    noteNumber: 80
+    beatIndex: 24
+    noteOffset: 0.5
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 24
+    noteOffset: 0.75
+  - velocity: 0
+    noteNumber: 83
+    beatIndex: 24
+    noteOffset: 0.97916603
+  - velocity: 0
+    noteNumber: 81
+    beatIndex: 25
+    noteOffset: 0.40625
+  - velocity: 0
+    noteNumber: 69
+    beatIndex: 26
+    noteOffset: 0.29166603
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 27
+    noteOffset: 0.51041603
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 27
+    noteOffset: 0.72916603
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 28
+    noteOffset: 0.5
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 28
+    noteOffset: 0.77083397
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 29
+    noteOffset: 0.69791603
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 29
+    noteOffset: 0.9375
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 30
+    noteOffset: 0
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 30
+    noteOffset: 0.29166603
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 30
+    noteOffset: 0.5
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 30
+    noteOffset: 0.75
+  - velocity: 0
+    noteNumber: 76
+    beatIndex: 30
+    noteOffset: 0.97916603
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 31
+    noteOffset: 0.40625
+  - velocity: 0
+    noteNumber: 64
+    beatIndex: 32
+    noteOffset: 0.29166794
+  - velocity: 0
+    noteNumber: 71
+    beatIndex: 33
+    noteOffset: 0.51041794
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 33
+    noteOffset: 0.72916794
+  - velocity: 0
+    noteNumber: 74
+    beatIndex: 34
+    noteOffset: 0.5
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 34
+    noteOffset: 0.77083206
+  - velocity: 0
+    noteNumber: 73
+    beatIndex: 35
+    noteOffset: 0.79166794
+--- !u!114 &919497772879511498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4353157958799461252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf864493f4fe4c89994cb9a3ef73953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beatInstances: []
+  pendingPostProcess: 0
+  active: 1
+  audioSource: {fileID: 3814849828940653104}
+  useInjectedSequence: 1
+  injectableSrc: {fileID: 7508081846031159809}
+  outputMode: 1
+  audioClip: {fileID: 8300000, guid: 997f0aa609297294aa32161eb0bda53e, type: 3}
+  audioClipVariations:
+  - {fileID: 8300000, guid: a461f24725048494bb63e9c1ab76490a, type: 3}
+  - {fileID: 8300000, guid: 9b9880be0f21848809e82fe593d3592d, type: 3}
+  - {fileID: 8300000, guid: 9d0813977b4df4d58b6857f788976342, type: 3}
+  clipVariationMode: 3
+  clipVariationChanceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  pitchMultiplier: 1
+  pitchOffsetSemitones: 0
+  voiceCount: 12
+  loopBarCount: 1
+  swingMultiplier: 0.75
+  velocityCurve: 2
+  velocityInfluence: 1
+  humaniseOffsetMilliseconds: {x: 2, y: 6}
+  densityTrimInnerLoop:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  densityTrimFullSequence:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  masterClock: {fileID: 7357135572206354715}
+  baseVolume: 0
+  roundRobinAudio: []
+  player: {fileID: 0}
+  robinIndex: 0
+  injectedBeatInstances: []
+  init: 0
+  loopBeatCount: 8
+  seed: 0
+  compositionMixVol: 1
+  useAmpEnvelope: 0
+  envAmpAttack: 0.75
+  envAmpDecay: 0.5
+  envAmpSustain: 0.35
+  envAmpRelease: 1
+  ampEnvToFilter: 0.5
+  harmonicHub: {fileID: 8953313834586896519}
+  pitchLogic: 0
+  arpeggiation: 65
+  rhythmLogic: 2
+  loopSound: 0
+  rhythmSource: {fileID: 6212805438816028719}
+  deletionsFromRhythmSource: 20
+  additionalInbetweensFromRhythmSource: 35
+  additionalArpOnInbetweens: 50
+  baseRhythmicDistortion: 75
+  baseRhythmicDensity: {x: 1, y: 5}
+  beatsUntilStart: 0
+  snareRepeatStack: 0100000002000000
+  repeatStackPowerFunction: 3
+  pitches: []
+--- !u!82 &3814849828940653104
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4353157958799461252}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -714691619840780858, guid: 96f111c8c312f4480af0906cd9ccb198, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.85
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &5874172514621599122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3102172513623090644}
+  - component: {fileID: 7567415323139797547}
+  m_Layer: 0
+  m_Name: CompositionHub
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3102172513623090644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5874172514621599122}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7700801955631291707}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7567415323139797547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5874172514621599122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02dd50e7afbe64e1d9d7347f2dc457ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  masterClock: {fileID: 7357135572206354715}
+  soundModules:
+  - {fileID: 6212805438816028719}
+  - {fileID: 1821442384567596825}
+  - {fileID: 2283167119978377875}
+  - {fileID: 4971316488527036126}
+  - {fileID: 4107228120769145142}
+  - {fileID: 919497772879511498}
+  - {fileID: 7556136098363121464}
+  forceNextLayoutIndex: 0
+  harmonicStability: 25
+  layoutStability: 50
+  seedStability: 50
+  activeModifiable: 2
+  compositionLayouts:
+  - sectionName: in
+    primaryModules:
+    - {fileID: 6212805438816028719}
+    - {fileID: 2283167119978377875}
+    - {fileID: 4107228120769145142}
+    - {fileID: 4971316488527036126}
+    - {fileID: 919497772879511498}
+    secondaryModules: []
+    repeatsOnlyModules: []
+    noRepeat: 1
+    noRepeatAllowedFollowers: 01000000
+    secondaryStartActiveChance: 0
+    repeatsStartActiveChance: 0
+    activeFX: []
+  - sectionName: mid
+    primaryModules:
+    - {fileID: 1821442384567596825}
+    - {fileID: 2283167119978377875}
+    - {fileID: 4107228120769145142}
+    - {fileID: 4971316488527036126}
+    - {fileID: 7556136098363121464}
+    secondaryModules: []
+    repeatsOnlyModules: []
+    noRepeat: 1
+    noRepeatAllowedFollowers: 02000000
+    secondaryStartActiveChance: 0
+    repeatsStartActiveChance: 0
+    activeFX: []
+  - sectionName: out
+    primaryModules:
+    - {fileID: 1821442384567596825}
+    - {fileID: 4971316488527036126}
+    secondaryModules: []
+    repeatsOnlyModules: []
+    noRepeat: 1
+    noRepeatAllowedFollowers: 00000000
+    secondaryStartActiveChance: 0
+    repeatsStartActiveChance: 0
+    activeFX: []
+  masterFilterChance: 25
+  masterFilters: []
+  masterFxChance: 25
+  masterFX: []
+  init: 0
+  currLayoutIndex: 0
+  assessingBeatIndex: 0
+  requestHarmonicChange: 0
+  masterFilterIndex: -1
+  masterFXIndex: -1
+  fadeIndex: 0
+  forceLayout: -1
+--- !u!1 &6677778622109207661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3195743181577326210}
+  - component: {fileID: 6212805438816028719}
+  - component: {fileID: 6304137685056413857}
+  m_Layer: 0
+  m_Name: Module_Kick
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3195743181577326210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6677778622109207661}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7700801955631291707}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6212805438816028719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6677778622109207661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f2ee6c92c6c245bc865662f92ff5186, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beatInstances: []
+  pendingPostProcess: 0
+  active: 1
+  audioSource: {fileID: 6304137685056413857}
+  useInjectedSequence: 0
+  injectableSrc: {fileID: 0}
+  outputMode: 1
+  audioClip: {fileID: 8300000, guid: 2e20e368dabf449488f25fefa7ef7ed7, type: 3}
+  audioClipVariations: []
+  clipVariationMode: 0
+  clipVariationChanceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  pitchMultiplier: 1
+  pitchOffsetSemitones: 0
+  voiceCount: 12
+  loopBarCount: 2
+  swingMultiplier: 0.5
+  velocityCurve: 0
+  velocityInfluence: 0.5
+  humaniseOffsetMilliseconds: {x: 0, y: 0}
+  densityTrimInnerLoop:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  densityTrimFullSequence:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  masterClock: {fileID: 7357135572206354715}
+  baseVolume: 0
+  roundRobinAudio: []
+  player: {fileID: 0}
+  robinIndex: 0
+  injectedBeatInstances: []
+  init: 0
+  loopBeatCount: 8
+  seed: 0
+  compositionMixVol: 1
+  useAmpEnvelope: 0
+  envAmpAttack: 0
+  envAmpDecay: 0
+  envAmpSustain: 0
+  envAmpRelease: 0
+  ampEnvToFilter: 0.35
+  rythmLogic: 0
+  fillIntensity: 0
+  baseRhythmicDistortion: 35
+  baseRhythmicDensity: {x: 0, y: 3}
+  repeatStack: 0300000002000000
+  repeatStackPowerFunction: 3
+--- !u!82 &6304137685056413857
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6677778622109207661}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -3634340617611475516, guid: 96f111c8c312f4480af0906cd9ccb198, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &8093268453117231378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 179861302727472096}
+  - component: {fileID: 1821442384567596825}
+  - component: {fileID: 3675404511432686237}
+  m_Layer: 0
+  m_Name: Module_Kick_core
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &179861302727472096
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8093268453117231378}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7700801955631291707}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1821442384567596825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8093268453117231378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f2ee6c92c6c245bc865662f92ff5186, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beatInstances: []
+  pendingPostProcess: 0
+  active: 1
+  audioSource: {fileID: 3675404511432686237}
+  useInjectedSequence: 0
+  injectableSrc: {fileID: 0}
+  outputMode: 1
+  audioClip: {fileID: 8300000, guid: 22a3f29fe3be8044ab5d78400bc6991a, type: 3}
+  audioClipVariations: []
+  clipVariationMode: 0
+  clipVariationChanceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  pitchMultiplier: 1
+  pitchOffsetSemitones: 0
+  voiceCount: 12
+  loopBarCount: 2
+  swingMultiplier: 1
+  velocityCurve: 0
+  velocityInfluence: 0.5
+  humaniseOffsetMilliseconds: {x: 0, y: 0}
+  densityTrimInnerLoop:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  densityTrimFullSequence:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  masterClock: {fileID: 7357135572206354715}
+  baseVolume: 0
+  roundRobinAudio: []
+  player: {fileID: 0}
+  robinIndex: 0
+  injectedBeatInstances: []
+  init: 0
+  loopBeatCount: 8
+  seed: 0
+  compositionMixVol: 1
+  useAmpEnvelope: 0
+  envAmpAttack: 0
+  envAmpDecay: 0
+  envAmpSustain: 0
+  envAmpRelease: 0
+  ampEnvToFilter: 0.35
+  rythmLogic: 0
+  fillIntensity: 0
+  baseRhythmicDistortion: 0
+  baseRhythmicDensity: {x: 1, y: 1}
+  repeatStack: 0300000002000000
+  repeatStackPowerFunction: 3
+--- !u!82 &3675404511432686237
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8093268453117231378}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -3634340617611475516, guid: 96f111c8c312f4480af0906cd9ccb198, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.85
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &8857124609121016579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7200521218328635657}
+  - component: {fileID: 4971316488527036126}
+  - component: {fileID: 6685767260506528535}
+  m_Layer: 0
+  m_Name: Module_bass
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7200521218328635657
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8857124609121016579}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7700801955631291707}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4971316488527036126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8857124609121016579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf864493f4fe4c89994cb9a3ef73953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beatInstances: []
+  pendingPostProcess: 0
+  active: 1
+  audioSource: {fileID: 6685767260506528535}
+  useInjectedSequence: 0
+  injectableSrc: {fileID: 0}
+  outputMode: 1
+  audioClip: {fileID: 8300000, guid: b4c349964f08940ca9e22d2996450515, type: 3}
+  audioClipVariations:
+  - {fileID: 8300000, guid: 74bbb99d634a7194f81bd6d2dbdd1968, type: 3}
+  - {fileID: 8300000, guid: 366913b6e69b4da4e9304460679b2915, type: 3}
+  - {fileID: 8300000, guid: 77f7d9af9da53574ba9218badf1859d3, type: 3}
+  clipVariationMode: 0
+  clipVariationChanceCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  pitchMultiplier: 1
+  pitchOffsetSemitones: 0
+  voiceCount: 12
+  loopBarCount: 1
+  swingMultiplier: 0.75
+  velocityCurve: 0
+  velocityInfluence: 0.75
+  humaniseOffsetMilliseconds: {x: 2, y: 6}
+  densityTrimInnerLoop:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  densityTrimFullSequence:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  masterClock: {fileID: 7357135572206354715}
+  baseVolume: 0
+  roundRobinAudio: []
+  player: {fileID: 0}
+  robinIndex: 0
+  injectedBeatInstances: []
+  init: 0
+  loopBeatCount: 8
+  seed: 0
+  compositionMixVol: 1
+  useAmpEnvelope: 0
+  envAmpAttack: 0.75
+  envAmpDecay: 0.5
+  envAmpSustain: 0.35
+  envAmpRelease: 1
+  ampEnvToFilter: 0.5
+  harmonicHub: {fileID: 8953313834586896519}
+  pitchLogic: 0
+  arpeggiation: 65
+  rhythmLogic: 2
+  loopSound: 0
+  rhythmSource: {fileID: 6212805438816028719}
+  deletionsFromRhythmSource: 20
+  additionalInbetweensFromRhythmSource: 35
+  additionalArpOnInbetweens: 50
+  baseRhythmicDistortion: 75
+  baseRhythmicDensity: {x: 1, y: 5}
+  beatsUntilStart: 0
+  snareRepeatStack: 0100000002000000
+  repeatStackPowerFunction: 3
+  pitches: []
+--- !u!82 &6685767260506528535
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8857124609121016579}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -4089623589463061071, guid: 96f111c8c312f4480af0906cd9ccb198, type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.75
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
